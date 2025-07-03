@@ -213,4 +213,6 @@ See: [Day 1 LLM Setup ➝](day1_foundations.md#🔧-llm-setup)
 
 ---
 
+![fig_case_research_agent_summary](../../shared_assets/visuals/fig_case_research_agent_summary.png)
+
 Next: In Session 3, we explore more advanced agent types (LangChain Research Agent and RAG agents).
