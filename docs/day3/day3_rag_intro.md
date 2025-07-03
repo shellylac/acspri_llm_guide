@@ -6,6 +6,16 @@ tags: [rag, vector db, research workflows, chunking, citations]
 status: live
 ---
 
+🎯 **Learning Objectives**
+
+- Understand how Retrieval-Augmented Generation (RAG) works and why it matters
+- Compare RAG to LLM-only responses in terms of accuracy and hallucination risk
+- Build a basic RAG pipeline using Chroma for document search and Gemini for response generation
+- Execute similarity search over embedded documents using vector databases
+- Generate citation-aware responses using Gemini Pro and compare to HuggingFace transformers
+- Apply RAG to real-world research use cases (e.g., literature reviews, interview analysis)
+- Run the full pipeline via Colab or Streamlit with your own documents
+
 ## What is Retrieval-Augmented Generation?
 
 RAG combines a language model with a search system. Instead of generating text based solely on internal training, the model first **retrieves relevant information from external sources** — then uses that to generate responses.
