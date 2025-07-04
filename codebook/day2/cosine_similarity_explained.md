@@ -112,9 +112,14 @@ Use cosine when the shape or meaning matters more than absolute scale.
 For numeric data where scale matters (use Euclidean or Manhattan)
 
 ### 🔗 Related Modules
+
 | Module                                   | Description                                                   |
 | ---------------------------------------- | ------------------------------------------------------------- |
 | `embed_compare_cosine.md`                | Code module for generating similarity matrix                  |
 | `embeddings-and-similarity-scores.ipynb` | Live notebook demo of cosine similarity                       |
 | `embedding_pipeline.md`                  | Pipeline that combines embedding + similarity + visualization |
 | `day2_embeddings_basics.md`              | Main session content – this file is linked in 📐 section      |
+| `label_by_similarity.md`                 | Classifies input using cosine similarity to labeled examples  |
+| `train_logistic_classifier.md`           | Trains logistic regression classifier on top of embeddings    |
+| `peft_finetune_demo.md`                  | LoRA fine-tuning walkthrough for more advanced users          |
+

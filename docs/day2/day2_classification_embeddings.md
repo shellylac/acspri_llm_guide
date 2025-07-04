@@ -24,6 +24,32 @@ graph TD
 ```
 
 
+Use this decision tree to choose the right text classification method based on how many labeled examples you have — and whether speed, interpretability, or performance is most important.
+
+```mermaid
+graph TD
+    A[Start Text Classification] --> B{Labeled Examples Available?}
+    
+    %% Main Decision Path
+    B -->|No| C[Zero-shot Cosine Similarity]
+    B -->|1–5 per label| D[Few-shot Classification]
+    B -->|30–500| E[Embedding + Classifier]
+    B -->|500+| F[Fine-tuning]
+    
+    %% Fine-tuning Sub-Decisions
+    F --> G{Compute Constraints?}
+    G -->|Limited GPU| H[LoRA/QLoRA]
+    G -->|High Resources| I[Full Fine-tuning]
+    
+    %% Method Characteristics
+    C --> J[Fastest<br>Low Accuracy]
+    D --> K[Moderate Speed<br>Better Coverage]
+    E --> L[Slower<br>Higher Accuracy]
+    H --> M[Memory Efficient<br>Good Performance]
+    I --> N[Best Performance<br>High Cost]
+    
+```
+
 ---
 
 ## 🧭 1. Introduction
@@ -73,8 +99,8 @@ You don’t need a classifier — just:
 The label with the **highest average similarity** wins.
 
 
-📘 **Code module**: [`label_by_similarity.md`](./label_by_similarity.md)  
-📓 **Notebook**: [`classify_policy_stance.ipynb`](../codebook/classification/classify_policy_stance.ipynb)
+📘 **Code module**: [`label_by_similarity.md`](../../codebook/day2/label_by_similarity.md)  
+📓 **Notebook**: [`classify_policy_stance.ipynb`](../../codebook/day2/classify_policy_stance.ipynb)
 
 ### 🔍 How it Works
 
@@ -119,7 +145,7 @@ Instead of 1 anchor per class, aim for 3–5 diverse examples.
 This makes your anchor embeddings more representative and improves classification accuracy.
 
 See updated examples in:  
-📓 [`classify_policy_stance.ipynb`](../codebook/classification/classify_policy_stance.ipynb)
+📓 [`classify_policy_stance.ipynb`](../../codebook/day2/classify_policy_stance.ipynb)
 
 ---
 
@@ -129,7 +155,7 @@ When you have **50–500 labeled samples**, you can train a simple classifier (l
 
 This is more accurate and flexible than cosine similarity, and easy to implement.
 
-📘 **Code module**: [`train_logistic_classifier.md`](./train_logistic_classifier.md)
+📘 **Code module**: [`train_logistic_classifier.md`](../../codebook/day2/train_logistic_classifier.md)
 
 ### 🔧 Steps:
 
@@ -164,7 +190,7 @@ For advanced use cases, or when you have **hundreds or thousands of labeled exam
 
 We recommend using **LoRA**, which injects small trainable weights into a frozen model. This makes training faster, cheaper, and more memory-efficient.
 
-📘 **Guide**: [`peft_finetune_demo.md`](./peft_finetune_demo.md)  
+📘 **Guide**: [`peft_finetune_demo.md`](../codebook/classification/peft_finetune_demo.md)  
 📓 **Notebook**: [`peft_finetune_demo.ipynb`](../codebook/classification/peft_finetune_demo.ipynb)
 
 ### 🧠 When to Use
@@ -222,8 +248,8 @@ We recommend using **LoRA**, which injects small trainable weights into a frozen
 
 - [`classify_policy_stance.ipynb`](../codebook/classification/classify_policy_stance.ipynb) – full live notebook
 - [`label_by_similarity.md`](./label_by_similarity.md) – similarity-based classifier
-- [`train_logistic_classifier.md`](./train_logistic_classifier.md) – supervised classifier
-- [`peft_finetune_demo.md`](./peft_finetune_demo.md) – LoRA fine-tuning walkthrough
+- [`train_logistic_classifier.md`]((../../codebook/day2/train_logistic_classifier.md) – supervised classifier
+- [`peft_finetune_demo.md`](../codebook/classification/peft_finetune_demo.md) – LoRA fine-tuning walkthrough
 
 > These modules are modular: you can copy them into your own pipelines, research code, or dashboards.
 
@@ -243,3 +269,5 @@ Tomorrow we’ll cover how to **combine embeddings with retrieval systems** — 
 | `peft_finetune_demo.ipynb`       | Full fine-tuning notebook with metrics, confidence, saving/loading  |
 | `embedding_pipeline.md`          | Embedding-to-similarity pipeline for visualization                  |
 | `embedding_cluster_visual.ipynb` | Visualizer for PCA projection of sentence embeddings                |
+| `peft_lora_setup.md`              | LoRA + PEFT setup boilerplate with full trainer config          |
+| `day2_embeddings_basics.md`       | Main session file covering embedding generation and similarity  |

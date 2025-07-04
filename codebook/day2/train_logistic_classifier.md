@@ -97,6 +97,23 @@ classify("I support the new initiative.")
 - You can extend this to SVM, random forests, etc.
 - Use this as a “baseline model” before trying LoRA or full fine-tuning.
 
+
+```mermaid
+graph LR
+    A[Raw Text] --> B[Normalize?]
+    B --> C[Embed Text]
+    C --> D{Method?}
+    
+    D -->|"Cosine (No training)"| E[Fast<br>Lower Accuracy]
+    D -->|"Classifier (50+ examples)"| F[Slower Setup<br>Higher Accuracy]
+    
+    E --> G[Label]
+    F --> G
+    
+```
+This shows the dual path: you can either classify with cosine similarity or train a lightweight model. Helps tie together zero-shot and supervised flows.
+
+
 ---
 
 ## 🔗 Related Modules

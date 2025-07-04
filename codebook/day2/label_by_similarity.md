@@ -28,14 +28,28 @@ label, scores = classify_text(text, anchors, model)
 | Quick prototyping     | This method              |
 | Production system     | Combine with classifier  |
 
+```mermaid
+graph LR
+    A[Anchor Examples per Label] --> B[SentenceTransformer Embedding]
+    C[New Input Sentence] --> B
+    B --> D[Cosine Similarity Calculation]
+    D --> E[Average Similarity per Label]
+    E --> F[Assign Predicted Label]
+
+```
+
+This diagram visually demonstrates the logic of label assignment using cosine similarity to anchor examples. Each sentence is embedded, compared, averaged, and assigned.
+
 ---
 
 ## 🧱 Enhanced `classify_text()` Function
+
 
 ```python
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 from typing import Dict, Tuple
+
 
 def classify_text(
     text: str, 
