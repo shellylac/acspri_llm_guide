@@ -74,6 +74,102 @@ This module covers:
 
 ---
 
+## ✂️ Chunking Strategy
+
+Chunking is one of the most important design decisions in any RAG system.
+
+Instead of feeding entire documents to a model, we split them into small, semantically meaningful units. This allows:
+
+- More precise matching during retrieval
+- Better use of the model's context window
+- Cleaner source attribution
+
+### 📐 Common Parameters
+
+| Parameter        | Typical Value | Notes                                       |
+|------------------|----------------|---------------------------------------------|
+| **Chunk Size**   | 300–500 tokens | Shorter chunks increase retrieval granularity |
+| **Overlap**      | 20–100 tokens  | Prevents context drop at chunk boundaries   |
+| **Splitter**     | RecursiveCharacterTextSplitter | Hierarchical fallback logic (paragraph → sentence → word) |
+
+```mermaid
+graph TD
+  style A fill:#f9fafb,color:#2E2E2E,stroke:#9ca3af,stroke-width:1.5px  
+    style B1 fill:#d1d5db,color:#2E2E2E,stroke:#ffffff,stroke-width:1.2px  
+    style B2 fill:#d1d5db,color:#2E2E2E,stroke:#ffffff,stroke-width:1.2px  
+    style B3 fill:#d1d5db,color:#2E2E2E,stroke:#ffffff,stroke-width:1.2px  
+
+    style C1 fill:#004E98,color:#ffffff,stroke:#1e3a8a,stroke-width:1.2px   %% Cobalt
+    style C2 fill:#004E98,color:#ffffff,stroke:#1e3a8a,stroke-width:1.2px
+    style C3 fill:#004E98,color:#ffffff,stroke:#1e3a8a,stroke-width:1.2px
+
+    A["All Document (e.g. PDF, transcript)"] --> B1[" ✂️ Chunk 1"]
+    A --> B2["✂️ Chunk 2"]
+    A --> B3["✂️ Chunk 3"]
+
+    B1 --> C1(("🔢 Embedding 1"))
+    B2 --> C2(("🔢 Embedding 2"))
+    B3 --> C3(("🔢 Embedding 3"))
+
+```
+This diagram illustrates how a source document is split into smaller semantic units (“chunks”), and how each chunk is independently embedded into vector space.
+
+This chunking-then-embedding process forms the foundation of any Retrieval-Augmented Generation (RAG) pipeline. Instead of embedding entire documents, we break them into manageable blocks—typically 300–500 tokens—so that we can retrieve only the most relevant pieces later.
+
+Each chunk is transformed into a high-dimensional vector using a sentence embedding model (e.g. all-MiniLM-L6-v2). These vectors are stored in a vector database (e.g. Chroma), ready for semantic retrieval.
+
+**Use when you need**:
+
+- Fine-grained retrieval
+
+- Context-controlled generation
+
+- Source tracking per segment
+
+```mermaid
+gantt
+    title ✂️ Chunking: No Overlap vs With Overlap
+    dateFormat  YYYY-MM-DD
+    axisFormat  %s
+
+    section No Overlap
+    Chunk 1     :a1, 2025-01-01, 1d
+    Chunk 2     :a2, after a1, 1d
+    Chunk 3     :a3, after a2, 1d
+
+    section With Overlap
+    Chunk 1           :b1, 2025-01-01, 1d
+    Chunk 2 (overlap) :b2, 2025-01-01, 1d
+    Chunk 3 (overlap) :b3, 2025-01-02, 1d
+
+```
+This diagram compares two chunking strategies: with and without overlap.
+
+In the non-overlapping approach, chunks are created sequentially with no shared content. This risks cutting across sentences or omitting transitional meaning.
+
+In the overlapping approach, each chunk shares 20–30% of its content with the previous one. This helps preserve context, especially in long paragraphs, interviews, or legal documents where information spans across boundaries.
+
+Overlapping is particularly helpful when answers depend on surrounding context (e.g. “he said” → who said?). Most RAG pipelines default to overlapping chunks using tools like RecursiveCharacterTextSplitter.
+
+**Use when**:
+
+- Working with dense, narrative-heavy text
+
+- Avoiding information loss at chunk boundaries
+
+- Preparing content for citation or exact attribution
+
+
+
+### ✨ Good Practice
+
+- Tune chunk size based on the structure of your documents (e.g. reports vs. interviews)
+- Use overlapping chunks for smoother context flow
+- Track source file + position using metadata for later citation
+
+📁 See code: [`embed_chroma.md`](../embeddings/embed_chroma.md)
+---
+
 ## 🔍 Semantic Similarity Retrieval
 
 📁 [`similarity_query_chroma.md`](../retrieval/similarity_query_chroma.md)
