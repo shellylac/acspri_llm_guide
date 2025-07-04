@@ -3,7 +3,6 @@ id: embed_compare_cosine
 title: Compare Sentence Embeddings (Cosine Similarity)
 type: module
 tags: [similarity, embeddings, cosine, NLP, sentence-transformers]
-author: Maria Aise
 version: 1.0
 dependencies:
   - numpy
@@ -202,5 +201,22 @@ Filter score matrix to top-k similarities if using for retrieval
 | `embed_text_basics.md`           | Generates sentence embeddings from input text    |
 | `embedding_pipeline.md`          | Full pipeline: embed → compare → visualize       |
 | `embedding_cluster_visual.ipynb` | Visual notebook using cosine matrix for plotting |
+
+
+## 📊 Optional: Visualize Similarity Matrix
+
+You can plot the cosine similarity matrix using `seaborn.heatmap`:
+
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+sns.heatmap(sim_df, annot=True, cmap="coolwarm")
+plt.title("Cosine Similarity Between Sentences")
+plt.show()
+```
+
+This visual representation helps spot clusters, contrastive pairs, and outliers more easily.
+
 
 
