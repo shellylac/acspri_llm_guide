@@ -15,6 +15,21 @@ This module gives you **hands-on Python examples** for making LLM inference call
 
 Use these examples in Colab, VS Code, or your preferred Python environment.
 
+```mermaid
+flowchart TD
+    classDef core fill:#0A0A0A,stroke:#D9D9D9,color:#FFFFFF;
+    classDef logic fill:#002B5C,stroke:#9EA1A6,color:#FFFFFF;
+    classDef api fill:#CCCCCC,stroke:#666666,color:#000000;
+    
+    A[Your Python Code or Notebook]:::core --> B{Which Provider?}:::logic
+    B -->|Google AI Studio| C[Gemini SDK<br>google.generativeai]:::api
+    B -->|OpenAI| D[OpenAI SDK<br>openai.ChatCompletion]:::api
+    B -->|Hugging Face| E{API or Transformers?}:::logic
+    E -->|Hosted API| F[REST Request to HF Server]:::api
+    E -->|Transformers| G[Local Model<br>via `transformers.pipeline`]:::api
+
+
+```
 ---
 
 ## ⚙️ Prerequisites
@@ -33,6 +48,25 @@ pip install openai google-generativeai transformers
 - NEVER hardcode in production
 - Use `.env` or secret manager in real applications
 
+```mermaid
+sequenceDiagram
+    box rgba(10, 10, 10, 0.5) User
+    participant User
+    end
+    box rgba(0, 43, 92, 0.5) Logic
+    participant Code
+    end
+    box rgba(204, 204, 204, 0.5) API
+    participant API_Provider
+    participant Model
+    end
+
+    User->>Code: Insert API key
+    Code->>API_Provider: Authenticated Request
+    API_Provider->>Model: Forward with headers
+    Model-->>API_Provider: Return response
+    API_Provider-->>Code: Output received
+```
 ---
 
 ## 🧪 1. Gemini API Example (Google AI Studio)
@@ -116,6 +150,17 @@ print(response.json())
 - Some models (like `meta-llama`, `mistral`, etc.) may require join request
 - JSON format is consistent: `{"inputs": "...", "parameters": {...}}`
 
+This comparison shows the tradeoffs between hosted vs local models in Hugging Face. Choose hosted for speed and simplicity, and local for flexibility and research.
+
+| Feature              | Hosted API (Inference Endpoint) | Local Transformers (pipeline) |
+|----------------------|-------------------------------|------------------------------|
+| Setup               | None – remote call             | Requires download            |
+| Execution           | Server-side                    | Local machine                |
+| Model choice        | Must be hosted by HF           | Any supported Transformers model |
+| Latency             | Variable (cold starts)         | Fast after initial load      |
+| Customization       | Limited                        | Full control over model config |
+| Use case            | Quick demos, zero-setup        | Research, fine-tuning, offline |
+
 ---
 
 ## 🧰 4. Hugging Face Transformers (Local or Colab)
@@ -134,6 +179,19 @@ print(output[0]['generated_text'])
 - This **downloads** models into your system
 - Supports offline use (ideal for research or controlled experiments)
 - Works with dozens of tasks: `summarization`, `classification`, `NER`, etc.
+
+```mermaid
+sequenceDiagram
+    participant Client #0A0A0A,white,white
+    participant HF_API #CCCCCC,black,black
+    participant Hosted_Model #CCCCCC,black,black
+
+    Client->>HF_API: POST with `inputs`
+    HF_API->>Hosted_Model: Forward JSON
+    Hosted_Model-->>HF_API: Output string
+    HF_API-->>Client: JSON response
+
+```
 
 ---
 
