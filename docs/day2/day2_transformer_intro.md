@@ -681,8 +681,6 @@ This drift signals a **change in framing** over time.
 
 ---
 
----
-
 ## 📌 Next Steps
 
 In Sessions 2 and 3, we build on these embeddings to:
