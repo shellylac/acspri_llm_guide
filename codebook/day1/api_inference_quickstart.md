@@ -2,8 +2,6 @@
 id: api_inference_quickstart
 title: API Inference Quickstart – Gemini, OpenAI, Hugging Face
 type: module
-tags: [api, quickstart, inference, openai, gemini, huggingface, colab, code]
-status: live
 ---
 
 # 🚀 API Inference Quickstart – Gemini, OpenAI, Hugging Face
