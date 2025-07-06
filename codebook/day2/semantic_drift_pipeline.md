@@ -11,7 +11,7 @@ dependencies:
   - sentence-transformers
 ---
 
-# 🌐 Module: `semantic_drift_pipeline.md`
+# 🌐 Module: Semantic Drift Detection Pipeline
 
 ## 📌 Purpose
 

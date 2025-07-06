@@ -91,15 +91,15 @@ These logic blocks are used across the course — and in future products.
 
 ---
 
-## 🧠 Reminder: GitBook Architecture
+## API Setup
 
-All files in this session live under:
+[Gemini API Setup Guide](Gemini_API_Setup_Guide.md)
+[Gemini API Setup Guide - screenshots](using_gemini_api_colab.md)
 
-- `gitbook/day1_platforms/`
-- `notebooks/Day1_Session2/`
-- `codebook/apis/`, `codebook/llm_platforms/`
+[Hugging Face API Setup Guide](huggingface_api_setup_colab.md)
 
-This ensures your walkthroughs, code, and future product docs remain **modular and reusable**.
+
+[OpenAPI Setup Guide](openai_api_setup_colab.md)
 
 ---
 

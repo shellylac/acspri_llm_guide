@@ -30,9 +30,7 @@ status: live
 |-------|--------------|---------|
 | 🧠 Transformer Framing | [day2_transformer_intro.md](../docs/day2/day2_transformer_intro.md) | Sets up embeddings as instruments of meaning |
 | 🤖 Model Comparison | [compare_gemini_vs_hf.md](day2/compare_gemini_vs_hf.md) | Juxtaposes Gemini and HF embeddings |
-| 🌡️ Drift Detector | [semantic_drift_detector.md](../docs/day2/semantic_drift_detector.md) | Detects framing shift between inputs |
-| 🧪 Meaning Matrix | [meaning_matrix_heatmap.md](../docs/day2/meaning_matrix_heatmap.md) | Heatmap of sentence similarities |
-| 🧭 Disagreement Vectors | [annotator_disagreement_vectors.md](../docs/day2/annotator_disagreement_vectors.md) | Optional: visualize coder disagreement in vector space |
+| 🧪 Meaning Matrix | [meaning_matrix_heatmap.md](day2/meaning_matrix_heatmap.md) | Heatmap of sentence similarities |
 
 ---
 
@@ -46,22 +44,18 @@ Features:
 - Gemini + HF sentence embedding
 - Cosine similarity matrix
 - PCA projection
-- Drift scenario (riot vs protest)
-
 ---
 
 ## 🧩 Modular Codebook Blocks
 
 | File | Purpose |
 |------|---------|
-| `embed_text_hf_basic.md` | HuggingFace embedding using MiniLM |
-| `embed_text_gemini.md` | Gemini wrapper for sentence-level probes |
-| `compare_embeddings_cosine.md` | Pairwise cosine similarity logic |
-| `visualize_embeddings_pca.md` | 2D projection to plot sentence clusters |
-| `visualize_similarity_heatmap.md` | Creates interpretable heatmap matrix |
-| `semantic_drift_pipeline.md` | Pipeline for analyzing language shifts |
-
-All modules are stored under `codebook/embeddings/` and reused in future sessions.
+| [`embed_text_hf_basic.md`](day2/embed_text_hf_basic.md) | HuggingFace embedding using MiniLM |
+| [`embed_text_gemini.md`](day2/embed_text_gemini.md) | Gemini wrapper for sentence-level probes |
+| [`compare_embeddings_cosine.md`](day2/compare_embeddings_cosine.md) | Pairwise cosine similarity logic |
+| [`visualize_embeddings_pca.md`](day2/visualize_embeddings_pca.md)| 2D projection to plot sentence clusters |
+| [`visualize_similarity_heatmap.md`](day2/visualize_similarity_heatmap.md)| Creates interpretable heatmap matrix |
+| [`semantic_drift_pipeline.md`](day2/semantic_drift_pipeline.md)| Pipeline for analyzing language shifts |
 
 ---
 
@@ -69,10 +63,19 @@ All modules are stored under `codebook/embeddings/` and reused in future session
 
 | File | Purpose | Use |
 |------|---------|-----|
-| `semantic_drift_detector.ipynb` | Standalone RAG drift pipeline | Optional – client use or Maria Aise MVP |
-| `meaning_matrix_heatmap.ipynb` | Standalone visual generator | Can be exported for papers, dashboards |
-| `annotator_disagreement_vectors.md` | Coder disagreement visualisation | Advanced – use for future agent QA |
-| `Gemini_API_Setup_Guide.md` | Gemini key onboarding | Client-ready guide or tech support insert |
+| `semantic_drift_detector.ipynb` | Standalone RAG drift pipeline | Optional – client use |
+
+---
+
+## API Setup
+
+[Gemini API Setup Guide](Gemini_API_Setup_Guide.md)
+[Gemini API Setup Guide - screenshots](using_gemini_api_colab.md)
+
+[Hugging Face API Setup Guide](huggingface_api_setup_colab.md)
+
+
+[OpenAPI Setup Guide](openai_api_setup_colab.md)
 
 ---
 
@@ -94,4 +97,4 @@ All modules are stored under `codebook/embeddings/` and reused in future session
 
 ➡️ In Session 2, you’ll use these semantic tools to drive **classification, RAG, and multi-document workflows**.
 
-➡️ [Day 2 Session 2: Classification & Retrieval →](day2_session2_classification_retrieval.md)
+➡️ [Day 2 Session 2: Classification & Retrieval →](dday2s2_schedule.md)

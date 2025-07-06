@@ -11,7 +11,7 @@ dependencies:
   - scikit-learn
 ---
 
-# 📊 Module: `meaning_matrix_heatmap.md`
+# 📊 Meaning Matrix Heatmap
 
 ## 📌 Purpose
 

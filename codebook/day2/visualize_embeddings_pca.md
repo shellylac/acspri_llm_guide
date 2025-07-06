@@ -10,7 +10,7 @@ dependencies:
   - sklearn
 ---
 
-# 📉 Module: `visualize_embeddings_pca.md`
+# 📉 Module: Visualize Sentence Embeddings with PCA
 
 ## 📌 Purpose
 

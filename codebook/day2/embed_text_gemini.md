@@ -1,5 +1,5 @@
 
-# 🤖 Module: `embed_text_gemini.md`
+# 🤖 Module: Text Embeddings using Gemini
 
 ## 📌 Purpose
 

@@ -1,5 +1,5 @@
 
-# 🧠 Module: `embed_text_hf_basic.md`
+# 🧠 Module: Text Embeddings using Hugging Face
 
 ## 📌 Purpose
 

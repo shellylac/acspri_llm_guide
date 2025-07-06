@@ -11,7 +11,7 @@ dependencies:
   - pandas
 ---
 
-# 🔥 Module: `visualize_similarity_heatmap.md`
+# 🔥 Module: Visualize Similarity Matrix as Heatmap
 
 ## 📌 Purpose
 

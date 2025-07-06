@@ -11,7 +11,7 @@ dependencies:
   - torch
 ---
 
-# 🧠 Module: `embed_text_basics.md`
+# 🧠 Text Embedding using Sentence Transformers
 
 ## 🔍 Purpose
 

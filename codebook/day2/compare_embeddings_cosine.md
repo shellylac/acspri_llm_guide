@@ -9,7 +9,7 @@ dependencies:
   - scikit-learn
 ---
 
-# 📐 Module: `compare_embeddings_cosine.md`
+# 📐 Module: Compare Sentence Embeddings (Cosine Similarity
 
 ## 📌 Purpose
 

@@ -154,5 +154,3 @@ input: [Paste strategy, executive summary, or pitch deck text]
 
 ---
 
-📎 [Download Starter Notebook →](link) 📎 [See Prompt Anatomy →](prompt_anatomy.md) 📎 [See Prompt Frameworks →](prompt_frameworks.md) 📎 [Try Prompt Evaluation →](prompt_evaluation.md)
-
