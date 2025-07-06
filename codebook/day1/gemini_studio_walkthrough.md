@@ -1,9 +1,6 @@
 ---
 id: google_ai_studio_walkthrough
 title: Google AI Studio Walkthrough – Prompting, Extensions, and SDK Use
-type: module
-tags: [google, gemini, ai studio, prompt-engineering, multimodal, walkthrough]
-status: live
 ---
 
 # 🧠 Google AI Studio Walkthrough – Prompting, Extensions, and SDK Use

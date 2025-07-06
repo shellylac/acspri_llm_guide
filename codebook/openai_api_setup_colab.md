@@ -2,8 +2,6 @@
 id: openai_api_setup_colab
 title: Setting Up OpenAI API in Google Colab
 description: Step-by-step guide for securely accessing the OpenAI API in Colab using Secrets Manager and direct code methods.
-tags: [openai, colab, api, secrets, setup]
-status: live
 ---
 
 # 🧠 Setting Up OpenAI API Access in Google Colab

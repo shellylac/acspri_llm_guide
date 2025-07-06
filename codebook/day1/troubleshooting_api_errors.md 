@@ -2,8 +2,6 @@
 id: troubleshooting_api_errors
 title: Troubleshooting API Errors – Gemini, OpenAI, Hugging Face
 type: module
-tags: [api, errors, debugging, troubleshooting, inference, LLM, openai, gemini, huggingface]
-status: live
 ---
 
 # 🛠️ Troubleshooting API Errors – Gemini, OpenAI, Hugging Face

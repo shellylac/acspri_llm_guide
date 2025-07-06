@@ -1,9 +1,6 @@
 ---
 title: Python Minimalist Foundations
 description: Variables, loops, functions — core Python syntax for working with LLMs and data pipelines
-tags: [python, beginner, functions, loops, variables, preprocessing, acspri]
-sidebar_position: 2
-slug: /day1/python-basics
 ---
 
 # 🐍 Python Minimalist Foundations

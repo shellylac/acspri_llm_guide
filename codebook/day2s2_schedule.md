@@ -2,8 +2,6 @@
 id: day2_session2_embeddings_similarity
 title: Day 2 – Session 2: LLM Embeddings & Similarity
 description: Learn to encode, compare, and visualize sentence-level meaning using embeddings and cosine similarity with Hugging Face and OpenAI
-tags: [day2, embeddings, cosine, transformer, vector-space, similarity]
-status: live
 ---
 
 ![fig_day2_session2_header](../shared_assets/visuals/images/fig_day2_session2_header.png)

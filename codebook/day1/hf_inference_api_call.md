@@ -2,8 +2,6 @@
 id: hf_inference_api_call
 title: Hugging Face Inference API – Basic Call (Hosted Models)
 type: code
-tags: [huggingface, api, transformers, inference, wrapper, codebook]
-status: live
 ---
 
 # 🤖 Hugging Face Inference API – Basic Call (Hosted Models)

@@ -4,8 +4,6 @@
 id: day3_session2_agents
 title: Day 3 – Session 2: Agent Reasoning + LangChain Orchestration
 description: Learn to structure, orchestrate, and operate intelligent agents using LangChain, reasoning loops, and modular tools
-tags: [day3, agents, langchain, react, acp, orchestration, prompt-chains]
-status: live
 ---
 
 ![fig_day3_session2_cover](../shared_assets/visuals/images/fig_day3_session2_cover.png)

@@ -2,8 +2,6 @@
 id: huggingface_walkthrough
 title: Hugging Face Walkthrough – Models, Spaces, Inference API
 type: module
-tags: [huggingface, walkthrough, ui, llm, transformers, spaces]
-status: live
 ---
 
 # 🤗 Hugging Face Walkthrough – Models, Spaces, Inference API

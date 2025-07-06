@@ -2,8 +2,6 @@
 id: huggingface_api_setup_colab
 title: Setting Up Hugging Face API in Google Colab
 description: Step-by-step guide for accessing Hugging Face models in Colab using the API key securely via Secrets Manager and code.
-tags: [huggingface, colab, api, secrets, setup]
-status: live
 ---
 
 # 🤗 Setting Up Hugging Face API Access in Google Colab

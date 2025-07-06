@@ -2,25 +2,6 @@
 id: google_ai_studio_activity
 title: Prompt Exploration Activity (Google AI Studio)
 description: Structured activity block for exploring prompt design and parameter tuning using Gemini Pro in Google AI Studio.
-author: Maria Aise
-status: live
-version: 1.0
-created: 2025-07-05
-updated: 2025-07-05
-module_type: activity
-tags:
-  - prompting
-  - google_ai_studio
-  - gemini
-  - activity
-  - hands-on
-  - day1
-  - session3
-used_in:
-  - ACSPRI Course (Day 1, Session 3)
-  - GitBook
-  - Prompting Sandbox Notebook
-  - Solo Practice Module
 ---
 
 

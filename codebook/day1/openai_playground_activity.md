@@ -2,26 +2,6 @@
 id: huggingface_chat_activity
 title: Prompt Exploration Activity (Hugging Face in Colab)
 description: Hands-on prompt testing activity using Hugging Face pipelines in Google Colab.
-author: Maria Aise
-status: live
-version: 2.1
-created: 2025-07-05
-updated: 2025-07-05
-module_type: activity
-tags:
-  - prompting
-  - huggingface
-  - colab
-  - pipeline
-  - activity
-  - hands-on
-  - day1
-  - session3
-used_in:
-  - ACSPRI Course (Day 1, Session 3)
-  - GitBook
-  - Prompting Sandbox Notebook
-  - Solo Practice Module
 ---
 
 

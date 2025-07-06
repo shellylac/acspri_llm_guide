@@ -2,8 +2,6 @@
 id: day3_session1_rag
 title: Day 3 – Session 1: Retrieval-Augmented Generation (RAG)
 description: Build an end-to-end pipeline for document retrieval and grounded generation using embeddings, ChromaDB, and Gemini Pro
-tags: [day3, rag, vector-db, similarity, chroma, gemini, streamlit]
-status: live
 ---
 
 ![fig_day3_session1_header](../shared_assets/visuals/images/fig_day3_session1_header.png)

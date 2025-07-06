@@ -2,8 +2,6 @@
 id: hf_local_transformer_pipeline
 title: Hugging Face Transformers – Local Pipeline Wrapper
 type: code
-tags: [huggingface, transformers, local, offline, pipeline, codebook]
-status: live
 ---
 
 # 🧠 Hugging Face Transformers – Local Pipeline Wrapper

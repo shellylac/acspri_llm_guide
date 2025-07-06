@@ -2,8 +2,6 @@
 id: gemini_api_setup_guide
 title: Gemini API Setup Guide (Non-Technical)
 type: guide
-tags: [gemini, onboarding, API, google generative ai, setup, LLM]
-version: 1.0
 ---
 
 # 🌐 Gemini API Setup Guide (Non-Technical)
