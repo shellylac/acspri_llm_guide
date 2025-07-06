@@ -1,7 +1,4 @@
 ---
-id: day1_session1_llm_foundations
-title: Day 1 – Session 1: LLM Foundations & Platforms
-description: Foundations of LLMs, tokenization, embeddings, and the platforms that power your AI workflow
 ---
 ![fig_day1_header](../shared_assets/visuals/images/fig_day1_header.png)
 
