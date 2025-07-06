@@ -1,27 +1,5 @@
 ---
 
-id: mini\_project\_templates title: Mini Project Templates (Prompting) description: Domain-aligned prompt templates for participants to use in solo practice, home projects, or product development. author: Maria Aise status: live version: 1.2 created: 2025-07-05 updated: 2025-07-05 module\_type: template
-
-tags:
-
-- prompting
-- projects
-- templates
-- practice
-- session3
-- hands-on
-- domain-examples
-- research
-- business
-
-used\_in:
-
-- ACSPRI Course (Day 1, Session 3)
-- GitBook
-- Prompt Testing Notebooks
-- Post-course Independent Learning
-- MVP Prompt Registry
-
 ---
 
 # 🧪 Mini Project Templates (Prompting)

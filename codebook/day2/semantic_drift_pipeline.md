@@ -1,14 +1,5 @@
 ---
-id: semantic_drift_pipeline
-title: Semantic Drift Detection Pipeline
-type: module
-tags: [semantic drift, embeddings, framing, stance, social science, NLP]
-version: 1.0
-dependencies:
-  - numpy
-  - sklearn
-  - matplotlib
-  - sentence-transformers
+
 ---
 
 # 🌐 Module: Semantic Drift Detection Pipeline

@@ -1,9 +1,5 @@
 ---
-id: prompt_eval_interface
-title: LLM Evaluation App – Interface Blueprint
-description: Simple evaluation interface to rate and compare LLM outputs using sliders and structured logic
-tags: [prompt evaluation, streamlit pattern, user interface, research tools]
-status: draft
+
 ---
 
 # 🧱 LLM Evaluation App – Interface Blueprint

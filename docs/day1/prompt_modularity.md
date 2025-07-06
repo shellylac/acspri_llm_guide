@@ -1,29 +1,5 @@
 ---
-id: prompt_modularity
-title: Prompt Modularity and Reuse Patterns
-description: Explains how to design, store, and reuse modular prompt units across GitBook, MVP apps, notebooks, and client-facing tools.
-author: Maria Aise
-status: live
-version: 1.1
-created: 2025-07-05
-updated: 2025-07-05
-module_type: strategy
-tags:
-  - prompting
-  - modularity
-  - reuse
-  - architecture
-  - prompt-library
-  - codebook
-  - day1
-  - session3
-used_in:
-  - ACSPRI Course (Day 1, Session 3)
-  - GitBook
-  - MVP Prompt Library
-  - Streamlit UI
-  - GitHub codebook repo
-  - Client Templates
+
 ---
 
 

@@ -1,9 +1,5 @@
 ---
-id: platform_comparison
-title: Platform Comparison – Hugging Face vs OpenAI vs Gemini vs DeepSeek
-type: module
-tags: [platforms, llm, huggingface, openai, gemini, deepseek, anthropic]
-status: live
+
 ---
 
 # 🌐 Platform Comparison – Hugging Face vs OpenAI vs Gemini vs DeepSeek

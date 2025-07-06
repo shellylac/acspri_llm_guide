@@ -1,26 +1,5 @@
 ---
-id: prompt_failures
-title: Prompt Failure Modes and Fixes
-description: A reference module that outlines common prompt failure types, how to diagnose them, and effective rewrites or recovery strategies with platform-specific fixes and examples.
-author: Maria Aise
-status: live
-version: 1.0
-created: 2025-07-05
-updated: 2025-07-05
-module_type: theory
-tags:
-  - prompting
-  - debugging
-  - failures
-  - evaluation
-  - day1
-  - session3
-used_in:
-  - ACSPRI Course (Day 1, Session 3)
-  - GitBook
-  - MVP Debugging Tools
-  - Prompt Evaluation Lab
-  - Notebook Testing Scenarios
+
 ---
 
 

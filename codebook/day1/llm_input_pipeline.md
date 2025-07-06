@@ -1,7 +1,7 @@
 ---
-title: LLM Input Pipeline
-description: How LLMs process text inputs — formatting, batch structure, prompt setup, and output unpacking
-tags: [llm, pipeline, prompt, input formatting, batch processing]
+title: "LLM Input Pipeline"
+description: "How LLMs process text inputs "
+
 ---
 
 # 🧮 LLM Input Pipeline

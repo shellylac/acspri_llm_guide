@@ -1,9 +1,5 @@
 ---
-id: day1_llm_platforms_main
-title: Day 1 – LLM Platforms & API Setup
-type: session
-tags: [llm, platforms, api, playground, gemini, openai, huggingface, quickstart]
-status: live
+
 ---
 
 # 🚀 Day 1 – LLM Platforms & API Setup

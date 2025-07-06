@@ -1,8 +1,4 @@
 ---
-id: embedding_pipeline
-title: Embedding Pipeline – Encode → Compare → Visualize
-tags: [embeddings, cosine similarity, clustering, NLP, pipeline]
-type: module
 ---
 
 # 🔁 Embedding Pipeline – Encode → Compare → Visualize

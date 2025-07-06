@@ -1,14 +1,5 @@
 ---
-id: embed_text_basics
-title: Embed Text (Sentence Transformers)
-type: module
-tags: [embeddings, sentence-transformers, NLP, feature-extraction]
-author: Maria Aise
-version: 1.0
-dependencies:
-  - sentence-transformers
-  - numpy
-  - torch
+
 ---
 
 # 🧠 Text Embedding using Sentence Transformers

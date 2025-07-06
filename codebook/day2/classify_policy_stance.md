@@ -1,8 +1,4 @@
 ---
-id: classify_policy_stance
-title: Policy Stance Classification – Cosine + Embedding Classifier
-tags: [classification, embeddings, cosine, policy, stance]
-type: notebook
 ---
 
 # 🧭 Classify Policy Stance – Step-by-Step

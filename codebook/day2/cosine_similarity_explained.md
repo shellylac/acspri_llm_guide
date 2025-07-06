@@ -1,8 +1,5 @@
 ---
-id: cosine_similarity_explained
-title: Cosine Similarity – Explained
-type: reference
-tags: [cosine, similarity, embeddings, distance-metrics, NLP, vectors]
+
 ---
 
 # 📐 Cosine Similarity – Explained

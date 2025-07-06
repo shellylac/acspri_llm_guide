@@ -1,9 +1,5 @@
 ---
-id: langchain-agents-session
-title: From Chains to Agents – Giving LLMs the Ability to Reason and Act
-description: Introduce LangChain agents using the ReAct framework; demonstrate tool use, orchestration loops, and reasoning-driven workflows.
-tags: [langchain, agents, react, reasoning, tools, orchestration]
-status: live
+
 ---
 
 

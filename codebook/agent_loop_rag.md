@@ -1,9 +1,5 @@
 ---
-id: agent-loop-rag
-title: LangChain ReAct Agent Loop (Gemini/OpenAI)
-description: Code module for building ReAct agents in LangChain with toggleable Gemini or OpenAI LLMs and tool definitions.
-tags: [agents, langchain, react, gemini, openai, tools]
-status: live
+
 ---
 
 # 🤖 LangChain ReAct Agent: Gemini + OpenAI Version

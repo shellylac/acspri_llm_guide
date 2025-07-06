@@ -1,8 +1,5 @@
 ---
-id: day2_classification_embeddings
-title: Day 2 – Classification Using Embeddings
-tags: [classification, embeddings, cosine, few-shot, LoRA, peft, social science]
-type: session
+
 ---
 
 # 🧠 Classification Using Embeddings

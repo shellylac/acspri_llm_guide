@@ -1,14 +1,5 @@
 ---
-id: embed_text_hf_basic
-title: Embedding Text with Hugging Face – Basics
-type: module
-tags: [embeddings, sentence-transformers, Hugging Face, semantic similarity, NLP]
-description: >
-  Learn how to convert sentences into semantic vectors using the Hugging Face `sentence-transformers` library.
-  This module walks through model loading, encoding, and best practices for reproducible, explainable embedding workflows.
-  Includes a breakdown of how to choose between cosine similarity, classifiers, and PEFT (LoRA) fine-tuning based on your use case.
-created_by: Maria Aise (Dr. Maria Prokofieva)
-program: ACSPRI Winter 2025 – Day 2, Session 2
+
 ---
 
 # 🧠 Day 2 – Session 1: How LLMs Measure Meaning

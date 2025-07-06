@@ -1,9 +1,5 @@
 ---
-id: acp-agent-template
-title: ACP Agent Template
-description: Reusable LangChain agent template built using the Agent Cognition Protocol (ACP); includes reasoning loop, tool interface, and modular logic structure.
-tags: [agent, template, langchain, acp, react, scaffold, research]
-status: template
+
 ---
 
 # 🧠 ACP Agent Template

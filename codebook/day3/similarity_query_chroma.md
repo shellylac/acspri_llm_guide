@@ -1,11 +1,5 @@
 ---
-id: similarity-query-chroma
-title: Similarity Search with Chroma
-description: Perform semantic similarity search over embedded documents using ChromaDB
-status: live
-inputs: [query string, Chroma vector store]
-outputs: [retrieved documents, similarity scores]
-tags: [retrieval, similarity, chroma, rag]
+
 ---
 
 ## Purpose

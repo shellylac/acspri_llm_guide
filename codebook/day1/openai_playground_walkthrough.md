@@ -1,9 +1,5 @@
 ---
-id: openai_playground_walkthrough
-title: OpenAI Playground Walkthrough – Prompt Engineering UI & Model Tuning
-type: module
-tags: [openai, playground, gpt4, gpt35, prompt-engineering, ui, walkthrough]
-status: live
+
 ---
 
 # 🧠 OpenAI Playground Walkthrough – Prompt Engineering UI & Model Tuning

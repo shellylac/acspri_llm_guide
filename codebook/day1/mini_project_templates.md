@@ -1,6 +1,5 @@
 ---
 
-id: mini\_project\_templates title: Mini Project Templates (Prompting) description: Domain-aligned prompt templates for participants to use in solo practice, home projects, or product development. author: Maria Aise status: live version: 1.2 created: 2025-07-05 updated: 2025-07-05 module\_type: template
 ---
 
 # 🧪 Mini Project Templates (Prompting)

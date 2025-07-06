@@ -1,16 +1,5 @@
 ---
-id: compare_gemini_vs_hf
-title: Gemini vs Hugging Face: Meaning Comparison
-type: module
-tags: [interpretability, embeddings, comparison, Gemini, Hugging Face, NLP]
-version: 1.0
-dependencies:
-  - numpy
-  - pandas
-  - matplotlib
-  - seaborn
-  - google-generativeai
-  - sentence-transformers
+
 ---
 
 # 🤖 Gemini vs Hugging Face: Meaning Comparison

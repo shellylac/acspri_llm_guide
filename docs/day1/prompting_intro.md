@@ -1,8 +1,5 @@
 ---
-id: prompting_intro
-title: Prompting as Interface Logic
-status: live
-tags: [prompting, foundations, day1, session3]
+
 ---
 
 # 🧠 Prompting as Interface Logic

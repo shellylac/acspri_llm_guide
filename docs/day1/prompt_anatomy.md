@@ -1,27 +1,5 @@
 ---
-id: prompt_anatomy
-title: Prompt Anatomy and Design Patterns
-description: A detailed breakdown of prompt components, structures, and design heuristics with real-world examples across different LLM strategies.
-author: Maria Aise
-status: live
-tags:
-  - prompting
-  - prompt design
-  - anatomy
-  - foundations
-  - session3
-  - day1
-  - GitBook
-  - reusable-module
-created: 2025-07-05
-updated: 2025-07-05
-version: 1.0
-module_type: theory
-used_in:
-  - ACSPRI Course (Day 1, Session 3)
-  - GitBook
-  - MVP Prompt Library
-  - Streamlit UI
+
 ---
 
 # 🧠 Prompt Anatomy and Design Patterns

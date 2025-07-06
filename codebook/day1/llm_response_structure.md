@@ -1,7 +1,7 @@
 ---
-title: LLM Response Structure
-description: How LLMs return data — understanding dictionaries, JSON format, and how to unpack them in Python
-tags: [llm, response, json, unpacking, dictionary, pipeline]
+title: "LLM Response Structure"
+description: "How LLMs return data — understanding dictionaries, JSON format, and how to unpack them in Python"
+
 ---
 
 # 📦 LLM Response Structure

@@ -1,14 +1,5 @@
 ---
-id: visualize_similarity_heatmap
-title: Visualize Similarity Matrix as Heatmap
-type: module
-tags: [heatmap, similarity, embeddings, cosine, visualization, NLP]
-version: 1.0
-dependencies:
-  - numpy
-  - seaborn
-  - matplotlib
-  - pandas
+
 ---
 
 # 🔥 Module: Visualize Similarity Matrix as Heatmap

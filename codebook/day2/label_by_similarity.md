@@ -1,8 +1,5 @@
 ---
-id: label_by_similarity
-title: Classify Text Using Embedding Similarity
-tags: [classification, embeddings, cosine, few-shot, zero-shot]
-type: module
+
 ---
 
 # 🔍 Label by Similarity (Zero/Few-Shot Classification)

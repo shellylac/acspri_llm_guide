@@ -1,30 +1,5 @@
 ---
-id: prompt_frameworks
-title: Prompt Engineering Frameworks
-description: Detailed breakdown of key prompting frameworks including benefits, limitations, best use cases, Hugging Face implementations, and end-to-end workflows.
-author: Maria Aise
-status: live
-version: 1.1
-created: 2025-07-05
-updated: 2025-07-05
-module_type: theory
-tags:
-  - prompting
-  - frameworks
-  - zero-shot
-  - few-shot
-  - chain-of-thought
-  - react
-  - tree-of-thought
-  - day1
-  - session3
-  - strategy
-used_in:
-  - ACSPRI Course (Day 1, Session 3)
-  - GitBook
-  - MVP Prompt Library
-  - Streamlit UI
-  - Notebook Examples
+
 ---
 
 

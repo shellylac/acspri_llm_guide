@@ -1,32 +1,5 @@
 ---
-id: prompt_evaluation
-title: Prompt Evaluation & Scoring Frameworks
-description: Introduces techniques for evaluating the performance, quality, and reliability of prompt outputs using scoring rubrics, self-grading prompts, error analysis, A/B testing, and structured workflows.
-author: Maria Aise
-status: live
-version: 1.2
-created: 2025-07-05
-updated: 2025-07-05
-module_type: evaluation
-tags:
-  - prompting
-  - evaluation
-  - scoring
-  - reliability
-  - rubric
-  - a/b testing
-  - domain-specific
-  - regulatory
-  - session3
-  - day1
-  - codebook
-used_in:
-  - ACSPRI Course (Day 1, Session 3)
-  - GitBook
-  - Prompt Debugging Labs
-  - Prompt Testing Notebooks
-  - Streamlit Interface
-  - MVP QA Workflows
+
 ---
 
 

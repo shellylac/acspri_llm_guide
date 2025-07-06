@@ -1,9 +1,5 @@
 ---
-id: rag-session
-title: Retrieval-Augmented Generation (RAG)
-description: Build a grounded text generation system using vector search and document embeddings
-tags: [rag, vector db, research workflows, chunking, citations]
-status: live
+
 ---
 
 🎯 **Learning Objectives**

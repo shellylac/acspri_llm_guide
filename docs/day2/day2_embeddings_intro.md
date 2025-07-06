@@ -1,8 +1,5 @@
 ---
-id: day2_embeddings_basics
-title: Day 2 – Embeddings & Similarity
-type: session
-tags: [embeddings, similarity, sentence-transformers, NLP, cosine, social science]
+
 ---
 
 # 📌 Day 2 – Embeddings & Semantic Similarity

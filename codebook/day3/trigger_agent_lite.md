@@ -1,9 +1,5 @@
 ---
-id: trigger-agent-lite
-title: Trigger Detector Agent (Lite Version)
-description: A lightweight LangChain agent using the ACP loop to detect trigger terms in user input; no external retrieval required.
-tags: [agent, trigger, classification, react, acp, langchain, lite]
-status: demo
+
 ---
 
 # 🧠 Trigger Detector Agent (Lite)

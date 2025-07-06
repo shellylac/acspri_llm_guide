@@ -1,8 +1,5 @@
 ---
-id: peft_lora_setup
-title: LoRA / PEFT Fine-Tuning Boilerplate
-tags: [peft, lora, fine-tuning, transformers, huggingface]
-type: module
+
 ---
 
 # ⚙️ LoRA / PEFT Fine-Tuning Boilerplate

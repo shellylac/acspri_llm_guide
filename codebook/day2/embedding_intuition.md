@@ -1,8 +1,4 @@
 ---
-id: embedding_intuition
-title: Embedding Intuition – Token, Word, and Sentence
-type: reference
-tags: [embeddings, NLP, sentence-transformers, diagram, explanation]
 ---
 
 # 🧠 Embedding Intuition: Token, Word, Sentence, Document

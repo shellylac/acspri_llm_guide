@@ -1,9 +1,5 @@
 ---
-id: llm-thought-action-observe
-title: The ReAct Loop: Thought, Action, Observation
-description: Understand how LLM agents reason and interact with tools using the ReAct cognitive loop.
-tags: [react, agents, reasoning, langchain, orchestration, tool-use]
-status: live
+
 ---
 
 # 🧠 The ReAct Loop: Thought → Action → Observation

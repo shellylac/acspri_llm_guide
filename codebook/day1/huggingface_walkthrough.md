@@ -1,6 +1,6 @@
 ---
 id: huggingface_walkthrough
-title: Hugging Face Walkthrough – Models, Spaces, Inference API
+title: "Hugging Face Walkthrough – Models, Spaces, Inference API"
 type: module
 ---
 

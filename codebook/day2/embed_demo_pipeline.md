@@ -1,8 +1,5 @@
 ---
-id: embed_demo_pipeline
-title: Embedding Demo Pipeline
-type: template
-tags: [pipeline, embedding, comparison, sentence-transformers, cosine]
+
 ---
 
 # 🔁 Embedding Demo Pipeline

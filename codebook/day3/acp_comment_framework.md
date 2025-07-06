@@ -1,9 +1,5 @@
 ---
-id: acp-comment-framework
-title: ACP Comment Framework
-description: A reusable prompt structure and reasoning loop extension to enable human-in-the-loop feedback, model critique, or audit tagging within agent interactions.
-tags: [agents, acp, comment, framework, critique, debug, audit, reflection]
-status: template
+
 ---
 
 ## ✳️  ACP Agent Template

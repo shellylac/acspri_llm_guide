@@ -1,8 +1,5 @@
 ---
-id: train_logistic_classifier
-title: Train Classifier on Sentence Embeddings
-tags: [classification, embeddings, logistic regression, supervised learning]
-type: module
+
 ---
 
 # 📊 Train Classifier on Sentence Embeddings

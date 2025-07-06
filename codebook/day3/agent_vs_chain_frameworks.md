@@ -1,9 +1,5 @@
 ---
-id: agent-vs-chain-frameworks
-title: Prompt vs Chain vs Agent
-description: Compare the evolution from static prompts to structured chains to reasoning agents using LLMs.
-tags: [agents, chains, prompts, orchestration, langchain]
-status: live
+
 ---
 
 # 🧠 Prompt vs Chain vs Agent

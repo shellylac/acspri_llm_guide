@@ -1,11 +1,5 @@
 ---
-id: gemini-rag-generation
-title: Generate Answers with Gemini using Retrieved Chunks
-description: Use Gemini Pro to generate grounded answers from retrieved documents with inline citations
-status: live
-inputs: [retrieved chunks, user query]
-outputs: [Gemini response with citations]
-tags: [generation, gemini, rag, citation]
+
 ---
 
 ## Purpose

@@ -1,13 +1,5 @@
 ---
-id: visualize_embeddings_pca
-title: Visualize Sentence Embeddings with PCA
-type: module
-tags: [PCA, visualization, embeddings, dimensionality reduction, NLP]
-version: 1.0
-dependencies:
-  - numpy
-  - matplotlib
-  - sklearn
+
 ---
 
 # 📉 Module: Visualize Sentence Embeddings with PCA

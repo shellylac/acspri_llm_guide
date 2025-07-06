@@ -1,9 +1,6 @@
 ---
 id: openai_api_basic_call
-title: OpenAI API – Basic Completion Call
-type: code
-tags: [openai, api, chatcompletion, reusable, codebook]
-status: live
+title: "OpenAI API – Basic Completion Call"
 ---
 
 # 🧠 OpenAI API – Basic Completion Call

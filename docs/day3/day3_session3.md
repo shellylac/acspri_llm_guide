@@ -1,9 +1,5 @@
 ---
-id: agents-capstone-session
-title: Capstone – Live Agent Build & Future Applications
-description: Build a lightweight LangChain agent prototype, annotate its reasoning steps, and reflect on how agents can serve your work.
-tags: [agents, langchain, react, acp, zaraGPT, trigger-detector, prototype]
-status: live
+
 ---
 
 ## 🧭 Session Overview

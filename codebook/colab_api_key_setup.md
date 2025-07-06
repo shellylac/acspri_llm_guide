@@ -1,26 +1,5 @@
 ---
----
-id: colab_api_key_setup
-title: How to Set Up API Keys in Google Colab
-description: Secure setup of OpenAI, Hugging Face, and Gemini API keys using the Google Colab Secrets manager.
-author: Maria Aise
-status: live
-version: 2.0
-created: 2025-07-05
-updated: 2025-07-05
-module_type: howto
-tags:
-  - colab
-  - api
-  - openai
-  - huggingface
-  - gemini
-  - setup
-  - secrets
-used_in:
-  - Prompting Sandbox Notebook
-  - ACSPRI Course (Day 1, Session 3)
-  - GitBook
+
 ---
 
 # 🔐 Secure API Key Setup in Google Colab (Recommended Method)

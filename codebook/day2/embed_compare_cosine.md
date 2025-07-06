@@ -1,12 +1,5 @@
 ---
-id: embed_compare_cosine
-title: Compare Sentence Embeddings (Cosine Similarity)
-type: module
-tags: [similarity, embeddings, cosine, NLP, sentence-transformers]
-version: 1.0
-dependencies:
-  - numpy
-  - scikit-learn
+
 ---
 
 # 🧠 Module: `embed_compare_cosine.md`

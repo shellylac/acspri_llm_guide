@@ -1,14 +1,5 @@
 ---
-id: meaning_matrix_heatmap
-title: Meaning Matrix Heatmap
-type: module
-tags: [visualization, similarity, embeddings, cosine, drift, stance]
-version: 1.0
-dependencies:
-  - numpy
-  - seaborn
-  - matplotlib
-  - scikit-learn
+
 ---
 
 # 📊 Meaning Matrix Heatmap

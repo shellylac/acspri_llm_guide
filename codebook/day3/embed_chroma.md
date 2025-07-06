@@ -1,11 +1,5 @@
 ---
-id: embed-chroma
-title: Embed Documents with Chroma
-description: Chunk and embed a text corpus using SentenceTransformers and store in ChromaDB
-status: live
-inputs: [PDFs, TXT, CSV]
-outputs: [Chroma vector store, retriever]
-tags: [rag, vector db, chunking]
+
 ---
 
 ## Step 1: Load your documents

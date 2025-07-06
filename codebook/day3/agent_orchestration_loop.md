@@ -1,9 +1,5 @@
 ---
-id: agent-orchestration-loop
-title: Agent Orchestration Loop (ACP + ReAct)
-description: Describes the internal decision-making cycle of agents using the Agent Cognition Protocol (ACP) and ReAct reasoning loop.
-tags: [agents, orchestration, acp, react, reasoning, langchain]
-status: live
+
 ---
 
 # 🧠 Agent Orchestration Loop
