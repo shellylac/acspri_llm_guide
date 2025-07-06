@@ -1,80 +1,73 @@
----
-id: day3_session2_agents
-title: Day 3 – Session 2: Agent Reasoning + LangChain Orchestration
-description: Learn to structure, orchestrate, and operate intelligent agents using LangChain, reasoning loops, and modular tools
-tags: [day3, agents, langchain, react, acp, orchestration, prompt-chains]
+--
+id: day3_session3_agent_templates
+title: Day 3 – Session 3: Agent Templates, Loops & Wrap-Up
+description: Final session walkthrough of agent templates, ACP logic, orchestration layers, and use cases — connecting concepts across the full course
+tags: [day3, agents, acp, react, wrapup, streamlit, templates]
 status: live
 ---
 
-![fig_day3_session2_cover](../shared_assets/visuals/images/fig_day3_session3_header.png)
+![fig_day3_session3_header](../shared_assets/visuals/images/fig_day3_session3_header.png)
 
-# Day 3 – Session 2: Agent Reasoning + LangChain Orchestration
+# Day 3 – Session 3: Agent Templates, Loops & Wrap-Up
 
-> _"Agents are not single prompts — they are **thinking systems**. Today we give them structure, tools, and memory."_  
+> _"Agents are blueprints for behavior. Today we give them scaffolding, feedback, and control."_  
 
 ---
 
 ## 🎯 Session Objectives
 
-✅ Understand LangChain’s building blocks: tools, chains, memory, agents  
-✅ Compare reasoning frameworks: ReAct vs ACP  
-✅ Define tool specs and route model outputs into action  
-✅ Implement LangChain orchestration patterns (codebook-ready)  
-✅ Visualize agent planning and output paths  
-
----
-
-## 🧠 Core Concepts
-
-| Section | Description | Visual |
-|---------|-------------|--------|
-| Prompt → Chain → Agent | Layered logic: from single prompt to full agent | ![fig_prompt_chain_agent_flow](../shared_assets/visuals/fig_prompt_chain_agent_flow.png) |
-| ReAct Framework | Reasoning loop: Thought → Action → Observation → Answer | ![fig_react_loop_diagram](../shared_assets/visuals/fig_react_loop_diagram.png) |
-| Tool Definition | Card format: name, description, input/output schema | ![fig_tool_definition_card](../shared_assets/visuals/fig_tool_definition_card.png) |
-| LangChain Orchestration | LangChain components: LLM ↔ Tool ↔ Memory ↔ Output | ![fig_langchain_orchestration_map](../shared_assets/visuals/fig_langchain_orchestration_map.png) |
-| ACP Loop | Custom loop: Perceive → Reason → Act → Observe → Exit | ![fig_acp_loop_mermaid_style](../shared_assets/visuals/fig_acp_loop_mermaid_style.png) |
+✅ Structure agents using ACP or ReAct loop templates  
+✅ Use prompt-based templates to support feedback and debugging  
+✅ Explore orchestration architecture for multi-agent systems  
+✅ Connect Streamlit demos with reusable code modules  
+✅ Wrap up full course with takeaways and next steps  
 
 ---
 
 ## 📘 GitBook Pages
 
-| Page | Description | Status |
-|------|-------------|--------|
-| `agent_stack_basics.md` | Explains agent vs chain vs prompt logic | ✅ |
-| `langchain_orchestration.md` | Architecture of LangChain and how components interact | ✅ |
-| `react_vs_acp.md` | Compare reasoning loops (ReAct vs ACP) | ✅ |
-| `acp_loop_explained.md` | Walkthrough of ACP with visuals + Streamlit pattern | ✅ |
-| `agent_tool_registry.md` | Tool card structure + tool definition examples | ✅ |
-| `llm_toggle_config.md` | Optional: Route logic to Gemini or OpenAI | ✅ |
+| Page | Purpose |
+|------|---------|
+| `day3_agents.md` | Main GitBook hub for this session |
+| `acp_agent_template.md` | Define reusable agent scaffolds using ACP |
+| `agent_orchestration_loop.md` | Visual + explanation of ReAct orchestration loop |
+| `acp_comment_framework.md` | Prompt template for debug/comment loop |
+| `trigger_agent_lite.md` | Live demo agent — minimal working example |
+
+📌 Visuals embedded:
+- `fig_orchestration_loop.png` → `agent_orchestration_loop.md`
+- `fig_zaragpt_ui.png` → `day3_agents.md` or closing section
 
 ---
 
-## 🧩 Figma Visuals Included
+## 🧩 Modular Codebook Logic
 
-| 🔢 | Visual | Description |
-|----|--------|-------------|
-| 1️⃣ | `fig_prompt_chain_agent_flow` | Layered model logic flow |
-| 2️⃣ | `fig_react_loop_diagram` | ReAct Thought → Action → Obs loop |
-| 3️⃣ | `fig_tool_definition_card` | Tool card with IO schema |
-| 4️⃣ | `fig_langchain_orchestration_map` | LangChain components system map |
-| 5️⃣ | `fig_acp_loop_mermaid_style` | ACP cycle with arrows |
-| 6️⃣ | `fig_llm_toggle_diagram` | Decision logic: USE_GEMINI = True? |
-| 7️⃣ | `fig_agent_stack_diagram` | Modular agent stack logic |
-| 8️⃣ | `fig_case_research_agent_summary` | Research Agent summary card |
-| 9️⃣ | `fig_gitbook_codebook_link_map` | Page ↔ code ↔ notebook linking system |
-| 🔟 | `fig_day3_session2_cover` | Hero header visual |
+| Module | Path | Description |
+|--------|------|-------------|
+| `trigger_agent_lite.md` | `codebook/agents/` | Streamlined ReAct logic for demos |
+| `agent_orchestration_loop.md` | `codebook/agents/` | Architecture and decision loops |
+| `acp_agent_template.md` | `codebook/templates/` | Define ACP-style agents with IO placeholders |
+| `acp_comment_framework.md` | `codebook/templates/` | Prompt-based comment/instruction layer |
+| `codebook_index.yaml` | root | Index of all available templates for reuse |
 
 ---
 
-## 🧪 Code + Tools (Reference Only)
+## 💻 Notebooks
 
-| Type | File | Use |
-|------|------|-----|
-| `.md` | `agent_tool_registry.md` | Tool specs for agents |
-| `.md` | `acp_loop_explained.md` | Orchestration pattern |
-| `.py` | `agent_langchain_core.py` | Backbone script for agents (optional) |
+| Notebook | Purpose | Use |
+|----------|---------|-----|
+| _Demo Notebooks_ | Live walkthrough of minimal agent design | [Used in demo, not required for homework] |
 
-> 🔄 Many of these modules plug into **Streamlit UI** for demo, RAG integration, or future product components.
+> 📦 These notebooks pull directly from `trigger_agent_lite.md` and orchestration templates. Editable and testable in Colab or Streamlit.
+
+---
+
+## 🎛️ Visual Elements
+
+| Visual | Embedded In | Description |
+|--------|-------------|-------------|
+| `fig_orchestration_loop.png` | `agent_orchestration_loop.md` | Diagram of ReAct + ACP architecture |
+| `fig_zaragpt_ui.png` | `day3_agents.md` (end) | UI mockup of consumer-facing agent |
 
 ---
 
@@ -82,27 +75,33 @@ status: live
 
 | Step | Page | Purpose |
 |------|------|---------|
-| 1️⃣ | `agent_stack_basics.md` | Prompt → Chain → Agent intro |
-| 2️⃣ | `langchain_orchestration.md` | LangChain components layout |
-| 3️⃣ | `react_vs_acp.md` | ReAct vs ACP loop theory |
-| 4️⃣ | `acp_loop_explained.md` | ACP in LangChain logic |
-| 5️⃣ | `agent_tool_registry.md` | Tool schema and IO blocks |
-| 6️⃣ | `llm_toggle_config.md` | Provider toggling logic (optional) |
+| 1️⃣ | `day3_agents.md` | Session scaffold and summary |
+| 2️⃣ | `agent_orchestration_loop.md` | Understand core planning logic |
+| 3️⃣ | `acp_agent_template.md` | Build ACP agent template |
+| 4️⃣ | `trigger_agent_lite.md` | Run minimal agent demo |
+| 5️⃣ | `acp_comment_framework.md` | Add comment/feedback prompt hooks |
+| 6️⃣ | `fig_zaragpt_ui.png` | Optional: UI design inspiration |
 
 ---
 
-## 🧠 Use Cases in Focus
+## 🧠 Closing Topics
 
-- Research agent using citation tools  
-- Planning agents with decision forks  
-- Retrieval-based agents with structured tool use  
-- Streamlit apps that switch between Gemini/OpenAI  
-- Agents embedded into document QA or policy analysis
+- Reuse logic in Streamlit, RAG, or productized flows  
+- Connect `codebook/` logic to your own research agents  
+- Invite discussion: What agents will your team build?
 
 ---
 
-## 🔮 What’s Next?
+## 🎓 Final Reflection
 
-➡️ Session 3 wraps up the course by reviewing **how agents + embeddings + prompting** integrate into your custom RAG systems, Streamlit tools, or research pipelines.
+This wraps the **core ACSPRI LLM course**, covering:
 
+- Prompt architecture and evaluation  
+- Embeddings and semantic control  
+- Retrieval-augmented generation (RAG)  
+- Planning loops and LangChain agent orchestration  
+- Template-driven agent scaffolds for real-world use
 
+Thank you for building with us — your tools are ready.
+
+---
