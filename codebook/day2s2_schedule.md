@@ -1,7 +1,7 @@
 ---
-id: day2_session2_embeddings_similarity
+id: "day2_session2_embeddings_similarity"
 title: "Day 2 – Session 2: LLM Embeddings & Similarity"
-description: "Learn to encode, compare, and visualize sentence-level meaning using embeddings and cosine similarity with Hugging Face and OpenAI"
+description: "Learn to encode, compare, and visualize sentence-level meaning using embeddings"
 ---
 
 ![fig_day2_session2_header](../shared_assets/visuals/images/fig_day2_session2_header.png)

@@ -1,7 +1,7 @@
 ---
-id: day1_session3_prompt_architecture
-title: Day 1 – Session 3: Prompt Engineering + Platform Mastery
-description: Learn to structure, debug, and evaluate prompts for LLM workflows across Gemini, OpenAI, and Hugging Face
+id: "day1_session3_prompt_architecture"
+title: "Day 1 – Session 3: Prompt Engineering + Platform Mastery"
+description: "Learn to structure, debug, and evaluate prompts for LLM workflows "
 ---
 ![fig_day1_header](../shared_assets/visuals/images/fig_day1_session3_header.png)
 

@@ -1,7 +1,7 @@
 ---
-id: day1_session2_platforms
-title: Day 1 – Session 2: Platform Walkthroughs & API Setup
-description: Compare major LLM providers, walk through interface features, and launch your first model calls with real APIs
+id: "day1_session2_platforms"
+title: "Day 1 – Session 2: Platform Walkthroughs & API Setup"
+description: "Compare major LLM providers, walk through interface features"
 ---
 ![fig_day1_header](../shared_assets/visuals/images/fig_day1_session2_header.png)
 

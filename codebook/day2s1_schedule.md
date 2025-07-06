@@ -1,7 +1,7 @@
 ---
-id: day2_session1_meaning_similarity
+id: "day2_session1_meaning_similarity"
 title: "Day 2 – Session 1: Meaning, Similarity & Semantic Drift"
-description: "Build semantic instruments using embeddings from Gemini and Hugging Face to measure, visualize, and compare sentence meaning"
+description: "Build semantic instruments using embeddings from Gemini and Hugging Face"
 ---
 ![fig_day2_session1_header](../shared_assets/visuals/images/fig_day2_session1_header.png)
 
