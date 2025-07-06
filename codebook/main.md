@@ -26,3 +26,15 @@
 
  **Codebook**
  llm_response_explainer.ipynb
+
+
+# days/session
+
+MariaAise/llm_guide/codebook/day1s1_schedule.md
+Day 1 – Session 1: LLM Foundations & Platforms
+
+MariaAise/llm_guide/codebook/day1s2_schedule.md
+Day 1 – Session 2: Platform Walkthroughs & API Setup
+
+MariaAise/llm_guide/codebook/day1s2_schedule.md 
+Day 1 – Session 3: Prompt Engineering + Platform Mastery

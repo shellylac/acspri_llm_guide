@@ -107,13 +107,18 @@ display(scores)
 
 ---
 
-## 🧱 Streamlit Integration Pattern
+## 🧩 Related: Evaluation Interface Pattern
 
-- Dropdown: Select prompt version
-- Text input: Paste or load generated output
-- Sliders: Relevance, Completeness, etc.
-- Output: Auto-calculated score + justification block
-- Export to CSV or send to Notion
+As we move from theory into real-world workflows, you’ll begin to test different prompt versions — and you’ll need a way to score their outputs systematically.
+
+To support this, we introduce a **lightweight evaluation interface** that allows you to:
+- Select a prompt version
+- Paste a generated response
+- Rate it using sliders (e.g. relevance, completeness, clarity)
+- Get a total score and brief summary
+- Export the results to CSV or Notion
+
+👉 [View the Interface Pattern →](../../codebook/day1/prompt_eval_interface.md)
 
 ---
 
