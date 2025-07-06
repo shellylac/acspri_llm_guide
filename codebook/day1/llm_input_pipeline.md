@@ -1,4 +1,3 @@
-
 ---
 title: LLM Input Pipeline
 description: How LLMs process text inputs — formatting, batch structure, prompt setup, and output unpacking
@@ -150,7 +149,6 @@ Now that you understand inputs and outputs:
 - Combine tools (Hugging Face, OpenAI, Gemini)
 - Chain LLMs with functions for decision workflows
 
-📘 Continue to: [`llm_response_structure.md `](llm_response_structure.md )
 
 --
 

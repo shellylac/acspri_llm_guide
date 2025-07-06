@@ -1,4 +1,3 @@
-
 ---
 title: LLM Response Structure
 description: How LLMs return data — understanding dictionaries, JSON format, and how to unpack them in Python
@@ -126,7 +125,7 @@ output["choices"][0]["message"]["content"]
 - Loop through batches for automation
 - Wrap in functions for reuse
 
-📘 Continue to: [`llm_response_explainer.md `](llm_response_explainer.md )
+📘 Continue to: [`llm_response_explainer.ipynb `](llm_response_explainer.md )
 
 ---
 
