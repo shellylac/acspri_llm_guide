@@ -34,9 +34,9 @@ Each concept is paired with:
 
 | Day | Theme | Topics |
 |-----|-------|--------|
-| [**Day 1**](./codebook/day1_s1_schedule.md) | Interfaces + Prompts | Prompt logic, APIs, LLM behavior |
-| [**Day 2**](./codebook/day2_s1_schedule.md)| Meaning + Retrieval | Embeddings, classification, similarity |
-| [**Day 3**](./codebook/day3_s1_schedule.md) | Planning + Control | RAG, agents, orchestration, tools |
+| [**Day 1**](./codebook/day1s1_schedule.md) | Interfaces + Prompts | Prompt logic, APIs, LLM behavior |
+| [**Day 2**](./codebook/day2s1_schedule.md)| Meaning + Retrieval | Embeddings, classification, similarity |
+| [**Day 3**](./codebook/day3s1_schedule.md) | Planning + Control | RAG, agents, orchestration, tools |
 
 You can follow along with the GitBook materials.
 
@@ -58,7 +58,7 @@ You’ll leave with reusable tools, templates, and a research-ready pipeline.
 
 ## 📁 How To Use This GitBook
 
-- Start from the [Day 1 overview](codebook/day1_s1_schedule.md) or use the sidebar  
+- Start from the [Day 1 overview](codebook/day1s1_schedule.md) or use the sidebar  
 - Each session has its own `.md` page with links to:
   - 🔹 GitBook reference material  
   - 🔹 Python notebooks (`.ipynb`)  
