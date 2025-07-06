@@ -1,7 +1,7 @@
 --
 id: day3_session3_agent_templates
-title: Day 3 – Session 3: Agent Templates, Loops & Wrap-Up
-description: Final session walkthrough of agent templates, ACP logic, orchestration layers, and use cases — connecting concepts across the full course
+title: "Day 3 – Session 3: Agent Templates, Loops & Wrap-Up"
+description: "Final session walkthrough of agent templates, ACP logic, orchestration layers, and use cases — connecting concepts across the full course"
 ---
 
 ![fig_day3_session3_header](../shared_assets/visuals/images/fig_day3_session3_header.png)
