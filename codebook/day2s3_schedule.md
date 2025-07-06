@@ -1,7 +1,7 @@
 ---
-id: day2_session3_classification_labeling
-title: Day 2 – Session 3: Classification & Labeling with Embeddings
-description: Learn to classify semantic content using embeddings, zero-shot similarity, and fine-tuned classifiers in policy, stance, and social science research
+id: "day2_session3_classification_labeling"
+title: "Day 2 – Session 3: Classification & Labeling with Embeddings"
+description: "Learn to classify semantic content using embeddings, zero-shot similarity, and fine-tuned classifiers"
 ---
 
 ![fig_day2_session3_header](../shared_assets/visuals/images/fig_day2_session3_header.png)
