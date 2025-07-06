@@ -29,10 +29,9 @@ status: live
 
 | Page | Purpose | Usage |
 |------|---------|--------|
-| `day2_classification_embeddings.md` | 🧭 Session anchor page with full narrative | Core teaching doc |
-| `classify_policy_stance.md` | 🧠 Step-by-step walkthrough: stance classification pipeline | Demo + participant reference |
-| `peft_finetune_demo.md` | 🔬 Advanced: PEFT explanation and integration strategy | Linked, optional |
-| `upgrade_accuracy_strategies.md` | 📊 Accuracy upgrade paths (cosine vs PEFT vs classifier) | Optional summary matrix |
+| [`day2_classification_embeddings.md`](../docs/day2/day2_classification_embeddings.md)| 🧭 Session anchor page with full narrative | Core teaching doc |
+| [`classify_policy_stance.md`](../docs/day2/classify_policy_stance.md) | 🧠 Step-by-step walkthrough: stance classification pipeline | Demo + participant reference |
+| [`peft_finetune_demo.md`](../docs/day2/peft_finetune_demo.md) | 🔬 Advanced: PEFT explanation and integration strategy | Linked, optional |
 
 ---
 
@@ -53,7 +52,7 @@ This session focuses on 3 core strategies:
 | Notebook | Purpose | Link |
 |----------|---------|------|
 | `classify_policy_stance.ipynb` | Main in-session demo: classify statements using semantic embedding | [Run in Colab](https://colab.research.google.com/github/MariaAise/test/blob/main/classify_policy_stance.ipynb) |
-| `peft_finetune_demo.ipynb` | Optional: Demonstrates lightweight model fine-tuning via LoRA | *(link*
+| `peft_finetune_demo.ipynb` | Optional: Demonstrates lightweight model fine-tuning via LoRA | [Run in Colab](https://colab.research.google.com/github/MariaAise/test/blob/main/peft_finetune_demo.ipynb)
 
 ---
 ## API Setup
