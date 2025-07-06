@@ -13,7 +13,7 @@ dependencies:
   - sentence-transformers
 ---
 
-# 🤖 Module: `compare_gemini_vs_hf.md`
+# 🤖 Gemini vs Hugging Face: Meaning Comparison
 
 ## 📌 Purpose
 

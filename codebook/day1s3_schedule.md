@@ -49,34 +49,11 @@ Features:
 
 ---
 
-## 🧩 Modular Codebook Blocks
-
-| Module | Path | Purpose |
-|--------|------|---------|
-| `structured_prompt_call.md` | `codebook/prompting/` | JSON-structured prompt interface |
-| `prompt_modular_block.md` | `codebook/prompting/` | YAML-based modular prompt unit |
-| `prompt_eval_llm_judge.md` | `codebook/prompting/` | LLM-as-evaluator prompt system |
-| `prompt_trace_debug.yaml` | `codebook/prompting/` | Trace + score structure for debugging |
-
-These are shared across MVP demos, Streamlit tools, and documentation.
-
----
-
 ## 🧪 Project & Participant Assets
 
 | File | Purpose | Use |
 |------|---------|-----|
-| `mini_project_templates.md` | Homework-style real-world prompt challenges | Leads into independent work |
-| `homework_instructions.md` | Self-paced instructions for prompt execution | Printable PDF or GitBook |
-| `prompt_test_template.ipynb` | Blank scaffold notebook for homework | Optional: can be added later |
-
----
-
-## 🔁 Visuals (Optional Inserts)
-
-- ![Prompt Anatomy](../../shared_assets/visuals/fig_prompt_anatomy.png)
-- ![Prompt Failure Types](../../shared_assets/visuals/fig_prompt_failures.png)
-- ![Prompting Framework Matrix](../../shared_assets/visuals/fig_prompt_framework_matrix.png)
+| [mini_project_templates.md](day1/mini_project_templates.md) | Homework-style real-world prompt challenges | Leads into independent work |
 
 ---
 
@@ -94,24 +71,8 @@ These are shared across MVP demos, Streamlit tools, and documentation.
 
 ---
 
-## 🧵 Development Workflow Summary
-
-> This session is built modular-first: core theory in `.md`, execution in `.ipynb`, and future reuse in `codebook/`.  
-
-| Phase | Files | Outcome |
-|-------|-------|---------|
-| 📘 Phase 1 | All GitBook `.md` theory files | Session logic, slides, and handout base |
-| 💻 Phase 2 | `prompting_sandbox.ipynb` + core modules | Live demos, MVP logic base |
-| 📦 Phase 3 | Project files | Homework, GitBook export, lead-gen tools |
-
----
-
 ## 🔮 What’s Next?
 
 ➡️ On Day 2, we go from prompt-level control to **classification & embeddings** — the building blocks of RAG and intelligent agents.
 
-→ [Day 2 Session 1: Classification & Embeddings →](../day2_session1_classification_embeddings.md)
-x
-## 🔭 Up Next
-
-➡️ [Session 3: Prompt Engineering + Platform Mastery →](day1s3_schedule.md)
+➡️ [Day 2 – Session 1: Meaning, Similarity & Semantic Drift →](day2s1_schedule.md)
