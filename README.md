@@ -34,9 +34,9 @@ Each concept is paired with:
 
 | Day | Theme | Topics |
 |-----|-------|--------|
-| **Day 1** | Interfaces + Prompts | Prompt logic, APIs, LLM behavior |
-| **Day 2** | Meaning + Retrieval | Embeddings, classification, similarity |
-| **Day 3** | Planning + Control | RAG, agents, orchestration, tools |
+| [**Day 1**](./codebook/day1_s1_schedule.md) | Interfaces + Prompts | Prompt logic, APIs, LLM behavior |
+| [**Day 2**](./codebook/day2_s1_schedule.md)| Meaning + Retrieval | Embeddings, classification, similarity |
+| [**Day 3**](./codebook/day3_s1_schedule.md) | Planning + Control | RAG, agents, orchestration, tools |
 
 You can follow along with the GitBook materials.
 
