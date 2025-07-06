@@ -1,4 +1,3 @@
-
 ---
 title: Python Minimalist Foundations
 description: Variables, loops, functions — core Python syntax for working with LLMs and data pipelines
