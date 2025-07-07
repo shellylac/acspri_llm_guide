@@ -7,7 +7,7 @@ description: "Learn to classify semantic content using embeddings, zero-shot sim
 ![fig_day2_session3_header](../shared_assets/visuals/images/fig_day2_session3_header.png)
 
 
-# Day 2 – Session 3: Classification & Labeling with Embeddings
+# Day 2 – Session 3: Getting Better results with Finetuning 
 
 > _"Embeddings don’t just tell us what things **mean** — they let us decide what they **belong to**."_  
 
@@ -15,40 +15,29 @@ description: "Learn to classify semantic content using embeddings, zero-shot sim
 
 ## 🎯 Session Objectives
 
-✅ Use cosine similarity for zero-shot classification  
-✅ Apply labeled anchors for few-shot decision logic  
-✅ Train classifiers on sentence embeddings (logistic regression)  
 ✅ Understand upgrade paths to higher accuracy or explainability  
-
+✅ Use fine-tuning with `Trainer` 
+✅ Implement LoRA in a real-case scenario
 ---
 
 ## 📘 GitBook Pages
 
 | Page | Purpose | Usage |
 |------|---------|--------|
-| [`day2_classification_embeddings.md`](../docs/day2/day2_classification_embeddings.md)| 🧭 Session anchor page with full narrative | Core teaching doc |
-| [`classify_policy_stance.md`](../docs/day2/classify_policy_stance.md) | 🧠 Step-by-step walkthrough: stance classification pipeline | Demo + participant reference |
-| [`peft_finetune_demo.md`](../docs/day2/peft_finetune_demo.md) | 🔬 Advanced: PEFT explanation and integration strategy | Linked, optional |
+| [`finetuning_lora.md`](../docs/day2/lora_finetuning_guide.md)| 🧭 Understanding fine-tuning and applying LoRA | Core teaching doc |
 
----
+[peft_lora_setup.md](../docs/day2/peft_lora_setup.md)  🔬 PEFT - LoRA setup 
 
-## 🧠 Classification Strategies
 
-This session focuses on 3 core strategies:
-
-1. **Zero-shot by cosine similarity**
-2. **Few-shot anchor matching**
-3. **Supervised classification (logistic regression on embeddings)**
-
----
 
 ## 💻 Notebooks
 
 | Notebook | Purpose | Link |
 |----------|---------|------|
-| `classify_policy_stance.ipynb` | Main in-session demo: classify statements using semantic embedding | [Run in Colab](https://colab.research.google.com/github/MariaAise/test/blob/main/classify_policy_stance.ipynb) |
-| `peft_finetune_demo.ipynb` | Optional: Demonstrates lightweight model fine-tuning via LoRA | [Run in Colab](https://colab.research.google.com/github/MariaAise/test/blob/main/peft%20_finetune_demo.ipynb)
+| `peft_finetune_demo.ipynb` | Main in-session demo demonstrates lightweight model fine-tuning via LoRA | [Run in Colab](https://colab.research.google.com/github/MariaAise/test/blob/main/peft_finetune_demo.ipynb)
 
+
+| `classify_policy_stance.ipynb` | classify statements using semantic embedding | [Run in Colab](https://colab.research.google.com/github/MariaAise/test/blob/main/classify_policy_stance.ipynb) |
 ---
 ## API Setup
 
