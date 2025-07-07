@@ -36,10 +36,9 @@ description: "Build semantic instruments using embeddings from Gemini and Huggin
 Prompting with Gemini API
 [Run in Colab](https://colab.research.google.com/github/MariaAise/test/blob/main/gemini_prompting.ipynb)
 
-Features:
-- Gemini + HF sentence embedding
-- Cosine similarity matrix
-- PCA projection
+Analysing meaning with LLM
+[Run in Colab](https://colab.research.google.com/github/MariaAise/test/blob/main/day2_llm_meaning_instruments.ipynb)
+
 ---
 
 ## 🧩 Modular Codebook Blocks
