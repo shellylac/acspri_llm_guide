@@ -41,7 +41,7 @@ We explore **how transformers encode meaning**, and how tools like **Gemini** (q
 
 The entire session is driven from one notebook:
 
-👉 [`day2_llm_meaning_instruments.ipynb`](../../codebook/day2/day2_llm_meaning_instruments.ipynb)
+👉 | `day2_llm_meaning_instruments.ipynb` | Meaning in NLP tasks | [Run in Colab](https://colab.research.google.com/github/MariaAise/test/blob/main/day2_llm_meaning_instruments.ipynb) |
 
 It includes:
 
