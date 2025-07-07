@@ -16,8 +16,11 @@ description: "Learn to classify semantic content using embeddings, zero-shot sim
 ## 🎯 Session Objectives
 
 ✅ Understand upgrade paths to higher accuracy or explainability  
+
 ✅ Use fine-tuning with `Trainer` 
+
 ✅ Implement LoRA in a real-case scenario
+
 ---
 
 ## 📘 GitBook Pages
@@ -25,8 +28,7 @@ description: "Learn to classify semantic content using embeddings, zero-shot sim
 | Page | Purpose | Usage |
 |------|---------|--------|
 | [`finetuning_lora.md`](../docs/day2/lora_finetuning_guide.md)| 🧭 Understanding fine-tuning and applying LoRA | Core teaching doc |
-
-[peft_lora_setup.md](../docs/day2/peft_lora_setup.md)  🔬 PEFT - LoRA setup 
+[peft_lora_setup.md](../docs/day2/peft_lora_setup.md)  |🔬 PEFT - LoRA setup | Jupyter Notebook
 
 
 
