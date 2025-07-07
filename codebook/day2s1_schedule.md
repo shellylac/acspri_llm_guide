@@ -95,4 +95,4 @@ Features:
 
 ➡️ In Session 2, you’ll use these semantic tools to drive **classification, RAG, and multi-document workflows**.
 
-➡️ [Day 2 Session 2: Classification & Retrieval →](dday2s2_schedule.md)
+➡️ [Day 2 Session 2: Classification & Retrieval →](day2s2_schedule.md)

@@ -680,10 +680,3 @@ In Sessions 2 and 3, we build on these embeddings to:
 - Build LoRA-classifiers and RAG systems
 
 ---
-
-## 🪪 Created by
-
-*Dr. Maria Aise (aka Maria Prokofieva)*  
-For the ACSPRI Winter 2025 Program
-
-

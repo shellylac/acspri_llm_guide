@@ -53,51 +53,6 @@ You can now pass this token to `transformers` or `requests`.
 
 ---
 
-## 🛠 Option B: Set API Key Directly in Code
-
-⚠️ **Not recommended** in shared or production notebooks.
-
-```python
-import os
-
-os.environ['HF_TOKEN'] = 'hf_your_token_here'
-```
-
-Use in Python:
-
-```python
-hf_token = os.environ.get('HF_TOKEN')
-```
-
----
-
-## 🔗 Using with `transformers` Library
-
-For hosted models (e.g., using `pipeline` with remote access):
-
-```python
-from transformers import pipeline
-
-pipe = pipeline("text-classification", model="distilbert-base-uncased-finetuned-sst-2-english", 
-                use_auth_token=hf_token)
-
-pipe("I love open-source NLP!")
-```
-
-Or for REST API calls:
-
-```python
-import requests
-
-API_URL = "https://api-inference.huggingface.co/models/distilbert-base-uncased-finetuned-sst-2-english"
-headers = {"Authorization": f"Bearer {hf_token}"}
-
-response = requests.post(API_URL, headers=headers, json={"inputs": "This is awesome!"})
-print(response.json())
-```
-
----
-
 ## ✅ Best Practices
 
 | Practice | Benefit |
@@ -107,11 +62,3 @@ print(response.json())
 | Regenerate tokens when exposed | Especially after sharing notebooks |
 | Don’t store tokens in `.ipynb` files | Keep notebooks portable and secure |
 
----
-
-## 🧠 You’re Ready
-
-You can now:
-- Run hosted Hugging Face models
-- Use transformers locally or remotely
-- Plug into APIs securely via token control
