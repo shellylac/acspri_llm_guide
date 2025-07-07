@@ -21,38 +21,93 @@ No coding experience required — perfect for workshop participants, research as
 
 ---
 
-## 🚀 Step 1: Get Your Gemini API Key
+There are 3 major steps to set up your Gemini API in Google Colab:
 
-1. Go to: [https://makersuite.google.com/app/apikey](https://makersuite.google.com/app/apikey)
-2. Log in with your Google account (if prompted)
-3. Click the **“Create API Key”** button
-4. Copy the key — it looks like:  
+- Setup your Project in Google Cloud
+- Create Gemini API key in Google AI Studio
+- Add Gemini API key in Google Colab Secret Manager
+- 
+## 🚀 Step 1: Google Cloud setup
+
+- Go to Google [Cloud Console](https://console.cloud.google.com/)
+- Sign in with your Google account.
+- Use the existing project or create a new one (no credit card needed for the free tier).
+- 
+![New project setup](../shared_assets/visuals/images/google_cloud.png)
+
+
+## 🚀 Step 2: Google AI Studio setup
+
+- Go to: [https://makersuite.google.com/app/apikey](https://makersuite.google.com/app/apikey)
+- Log in with your Google account (if prompted)
+- Click the **“Create API Key”** button
+- Copy the key — it looks like:  
    `AIzaSyXXXX...`
-5. **Save this key** in a secure place (Notion, Password Manager, etc.)
+- **Save this key** in a secure place (Notion, Password Manager, etc.)
+
+![Google AI Studio setup](../shared_assets/visuals/images/googleai.png)
 
 > 🛑 Never share this key publicly. It gives access to your Gemini quota.
 
+## 🚀 Step 3: Google Colab setup
+
+- Open the Secrets Manager
+In your Colab notebook, click the "Key" icon in the left sidebar (or go to Tools > Secrets).
+
+This opens the Secrets Manager.
+
+2. Add Your Gemini API Key
+Click "Add new secret".
+
+In the "Name" field, enter GEMINI_API_KEY (or any name you prefer).
+
+In the "Value" field, paste your actual Gemini API key.
+
+Click "Save".
+
+[Google Colab setup](https://ai.google.dev/gemini-api/docs/quickstart?lang=python)
+![Google Colab setup](../shared_assets/visuals/images/colab_secret.png)
+
 ---
 
-## 🧪 Step 2: Test Your Key (Optional)
+## 🧪 Test Your Key (Optional)
 
 Paste the following into a Python notebook or script:
 
+Install google-genai library
+
 ```python
+!pip install -q -U google-genai
+```
+
+The defail API call is 
+
+```python
+
+ifrom google.colab import userdata
 import google.generativeai as genai
 
-genai.configure(api_key="YOUR_KEY_HERE")
-model = genai.GenerativeModel("gemini-pro")
+# Retrieve the API key from Secrets
+api_key = userdata.get('GEMINI_API_KEY')  # Name must match what you set!
 
-response = model.generate_content("Explain how LLMs generate text.")
+# Configure Gemini
+genai.configure(api_key=api_key)
+
+# Example usage
+model = genai.GenerativeModel('gemini-2.0-flash')
+response = model.generate_content("Hello, world!")
 print(response.text)
+
 ```
 
 If successful, Gemini will return a paragraph.
 
+Before making the API call you can check the latest documentation to see available models and functions 
+
+[Gemini API doc](https://ai.google.dev/gemini-api/docs/quickstart?lang=python)
 ---
 
-## 💰 Step 3: Check Free Tier
+## 💰 Check Free Tier
 
 Google’s **free usage tier** gives you:
 
@@ -82,8 +137,4 @@ Google’s **free usage tier** gives you:
 | `compare_gemini_vs_hf.md`   | Benchmarks Gemini vs Hugging Face models    |
 | `semantic_drift_detector.ipynb` | Uses Gemini to explain tone/framing shifts |
 
----
 
-## 🪪 Author  
-*Maria Aise — Modular Codebook, ACSPRI 2025*  
-This guide boosts onboarding speed and confidence for both students and clients.
