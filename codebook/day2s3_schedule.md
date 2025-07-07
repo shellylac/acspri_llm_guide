@@ -18,7 +18,6 @@ description: "Learn to classify semantic content using embeddings, zero-shot sim
 ✅ Use cosine similarity for zero-shot classification  
 ✅ Apply labeled anchors for few-shot decision logic  
 ✅ Train classifiers on sentence embeddings (logistic regression)  
-✅ Explore PEFT (LoRA) fine-tuning for advanced upgrades  
 ✅ Understand upgrade paths to higher accuracy or explainability  
 
 ---
@@ -40,8 +39,6 @@ This session focuses on 3 core strategies:
 1. **Zero-shot by cosine similarity**
 2. **Few-shot anchor matching**
 3. **Supervised classification (logistic regression on embeddings)**
-
-➡️ For advanced users: **PEFT fine-tuning** via LoRA is available as an upgrade path.
 
 ---
 

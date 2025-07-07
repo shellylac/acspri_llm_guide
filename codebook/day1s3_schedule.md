@@ -16,8 +16,7 @@ description: "Learn to structure, debug, and evaluate prompts for LLM workflows 
 ✅ Understand the anatomy and strategy behind well-formed prompts  
 ✅ Compare major prompting frameworks: zero-shot, few-shot, CoT, ReAct  
 ✅ Identify and debug common prompt failures  
-✅ Evaluate prompt quality using structured and automated methods  
-✅ Apply prompt modularity for reuse across GitBook, MVP, and agents  
+✅ Evaluate prompt quality using structured and automated methods: overview  
 
 ---
 
@@ -47,21 +46,12 @@ Features:
 
 ---
 
-## 🧪 Project & Participant Assets
-
-| File | Purpose | Use |
-|------|---------|-----|
-| [mini_project_templates.md](day1/mini_project_templates.md) | Homework-style real-world prompt challenges | Leads into independent work |
-
----
-
 ## API Setup
 
 [Gemini API Setup Guide](Gemini_API_Setup_Guide.md)
 [Gemini API Setup Guide - screenshots](using_gemini_api_colab.md)
 
 [Hugging Face API Setup Guide](huggingface_api_setup_colab.md)
-
 
 [OpenAPI Setup Guide](openai_api_setup_colab.md)
 

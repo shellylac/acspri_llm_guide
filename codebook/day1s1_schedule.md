@@ -1,13 +1,12 @@
 ---
-id: "day1_session1_llm_foundations"
-title: "Day 1 – Session 1: LLM Foundations & Platforms"
-description: "Foundations of LLMs, tokenization, embeddings, and the platforms that power your AI workflow"
+
 ---
 ![fig_day1_header](../shared_assets/visuals/images/fig_day1_header.png)
 
 # Day 1 – Session 1: LLM Foundations & Platforms
 
-> _"We begin not with theory, but with the instrument. This is not about becoming a developer — it’s about learning to think through the machine."_  
+> “The limits of my language mean the limits of my world.”
+— Ludwig Wittgenstein, Tractatus Logico-Philosophicus (1922)
 
 ---
 
@@ -17,8 +16,7 @@ description: "Foundations of LLMs, tokenization, embeddings, and the platforms t
 ✅ Set up Colab + Gemini  
 ✅ Understand minimal working Python for LLM workflows  
 ✅ Run your first HuggingFace model  
-✅ Get oriented in the LLM landscape (OpenAI, Gemini, HF)  
-✅ Learn how a transformer processes text step-by-step
+
 
 ---
 
@@ -68,10 +66,7 @@ description: "Foundations of LLMs, tokenization, embeddings, and the platforms t
 
 [Gemini API Setup Guide](Gemini_API_Setup_Guide.md)
 [Gemini API Setup Guide - screenshots](using_gemini_api_colab.md)
-
 [Hugging Face API Setup Guide](huggingface_api_setup_colab.md)
-
-
 [OpenAPI Setup Guide](openai_api_setup_colab.md)
 
 ---
@@ -83,8 +78,8 @@ description: "Foundations of LLMs, tokenization, embeddings, and the platforms t
 | 10:00–10:10   | Setup Colab + environment          | `colab_foundations.*` |
 | 10:10–10:25   | Python quickstart (only useful bits) | `python_minimalist.md`, `colab_foundations.ipynb` |
 | 10:25–10:35   | Sentiment pipeline (live demo)     | `huggingface_pipeline_demo.ipynb` |
-| 10:35–10:50   | Bonus tasks (self-paced)           | `huggingface_pipeline_bonus.ipynb` |
-| 11:00–11:10   | How transformers work              | `llm_input_pipeline.md` |
+| 10:35–11:00  | More pipeline tasks            | `huggingface_pipeline_bonus.ipynb` |
+
 
 ---
 

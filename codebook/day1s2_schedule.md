@@ -8,16 +8,13 @@ description: "Compare major LLM providers, walk through interface features"
 
 # Day 1 – Session 2: Platform Walkthroughs & API Setup
 
-> _"Three platforms. One interface layer. Your job is to learn how to access intelligence across providers — safely, precisely, and with full control."_  
-
----
 
 ## 🎯 What You’ll Learn
 
-✅ Compare Gemini, OpenAI, and Hugging Face for real-world use  
-✅ Navigate their UI features: extensions, tokens, temperature  
+✅ Hugging Face platform: interface, main component, documentation  
+✅ Gemini/Google AI Studio: quick overview
+✅ OpenAI/OpenAI Playground: quick overview
 ✅ Set up API keys safely and run your first model calls  
-✅ Prepare for hands-on coding in Colab with multi-provider logic  
 
 ---
 
@@ -63,20 +60,6 @@ You’ll test each platform directly using Python in your browser.
 | `multi_provider_sandbox.ipynb` | [Run](https://colab.research.google.com/github/MariaAise/test/blob/main/multi_provider_sandbox.ipynb) | Side-by-side comparison |
 
 
-
----
-
-## 🔁 Modular Code (Reference & Reuse)
-
-These logic blocks are used across the course — and in future products.
-
-| Module | Path | Description |
-|--------|------|-------------|
-| `openai_api_basic_call.md` | `codebook/apis/` | OpenAI call using `ChatCompletion.create()` |
-| `gemini_api_basic_call.md` | `codebook/apis/` | Gemini call using Google SDK |
-| `hf_inference_api_call.md` | `codebook/apis/` | HF pipeline + REST API |
-| `platform_overview.yaml` | `codebook/llm_platforms/` | YAML metadata for limits, cost, speed |
-
 ---
 
 ## 🚧 Troubleshooting
@@ -96,30 +79,7 @@ These logic blocks are used across the course — and in future products.
 
 [Hugging Face API Setup Guide](huggingface_api_setup_colab.md)
 
-
 [OpenAPI Setup Guide](openai_api_setup_colab.md)
-
----
-
-## 🗂 Suggested Reading Order
-
-| Step | File | Purpose |
-|------|------|---------|
-| 1️⃣ | `platform_comparison.md` | Understand tradeoffs |
-| 2️⃣ | `api_key_setup.md` | Set up for execution |
-| 3️⃣ | `huggingface_walkthrough.md` | Explore HF models |
-| 4️⃣ | `openai_playground_walkthrough.md` | Understand OpenAI UI |
-| 5️⃣ | `gemini_studio_walkthrough.md` | Get into Gemini logic |
-| 6️⃣ | `api_inference_quickstart.md` | Run a basic test |
-| 7️⃣ | `troubleshooting_api_errors.md` | Fix what breaks |
-
----
-
-## 🔚 What’s Next?
-
-➡️ In **Session 3**, you’ll build on this by crafting and evaluating prompts across tasks: summarisation, classification, Q&A.
-
-→ [Session 3: Prompt Architecture & Evaluation →](../day1_session3_prompt_architecture.md)
 
 ---
 

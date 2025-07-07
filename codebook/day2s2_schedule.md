@@ -45,9 +45,9 @@ description: "Learn to encode, compare, and visualize sentence-level meaning usi
 
 | Module | Path | Purpose |
 |--------|------|---------|
-| `embed_text_basics.md` | [`embed_text_basics.md`](day2/embed_text_basics.md) | Encode sentences using Hugging Face |
-| `embed_compare_cosine.md` | [`embed_compare_cosine.md`](`day2/embed_compare_cosine.md`) | Compute cosine similarity |
-| `embed_demo_pipeline.md` | [`embed_demo_pipeline.md`](day2/`embed_demo_pipeline.md) | Optional: wrap embedding + similarity logic |
+| `embed_text_basics.md` | [`day2/embed_text_basics.md`](day2/embed_text_basics.md) | Encode sentences using Hugging Face |
+| `embed_compare_cosine.md` | [`day2/embed_compare_cosine.md`](`day2/embed_compare_cosine.md`) | Compute cosine similarity |
+| `embed_demo_pipeline.md` | [`day2/embed_demo_pipeline.md`](day2/`embed_demo_pipeline.md) | Optional: wrap embedding + similarity logic |
 
 ---
 ## API Setup
