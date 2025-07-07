@@ -14,11 +14,10 @@ description: "Build semantic instruments using embeddings from Gemini and Huggin
 
 ## 🎯 Session Objectives
 
-✅ Understand how transformer models embed semantic meaning  
-✅ Generate and compare sentence embeddings using Gemini and Hugging Face  
-✅ Visualize relationships via PCA and similarity heatmaps  
-✅ Detect framing drift and coder disagreement in language  
-✅ Reuse modules in classification, prompt QA, and RAG pipelines  
+✅ Understand how transformer models  
+✅ Components of the transformer model
+✅ Vector search intro
+✅ Prompting in Gemini API
 
 ---
 
@@ -34,9 +33,8 @@ description: "Build semantic instruments using embeddings from Gemini and Huggin
 
 ## 💻 Live Notebook Demo
 
-| Notebook | Purpose | Link |
-|----------|---------|------|
-| `day2_llm_meaning_instruments.ipynb` | End-to-end embeddings, similarity, drift, heatmaps | [Run in Colab](https://colab.research.google.com/github/MariaAise/test/blob/main/day2_llm_meaning_instruments.ipynb) |
+Prompting with Gemini API
+[Run in Colab](https://colab.research.google.com/github/MariaAise/test/blob/main/gemini_prompting.ipynb)
 
 Features:
 - Gemini + HF sentence embedding
