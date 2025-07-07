@@ -47,7 +47,7 @@ This session focuses on 3 core strategies:
 | Notebook | Purpose | Link |
 |----------|---------|------|
 | `classify_policy_stance.ipynb` | Main in-session demo: classify statements using semantic embedding | [Run in Colab](https://colab.research.google.com/github/MariaAise/test/blob/main/classify_policy_stance.ipynb) |
-| `peft_finetune_demo.ipynb` | Optional: Demonstrates lightweight model fine-tuning via LoRA | [Run in Colab](https://colab.research.google.com/github/MariaAise/test/blob/main/peft_finetune_demo.ipynb)
+| `peft_finetune_demo.ipynb` | Optional: Demonstrates lightweight model fine-tuning via LoRA | [Run in Colab](https://colab.research.google.com/github/MariaAise/test/blob/main/peft%20_finetune_demo.ipynb)
 
 ---
 ## API Setup
