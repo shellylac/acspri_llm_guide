@@ -14,11 +14,11 @@ description: "Build an end-to-end pipeline for document retrieval and grounded g
 
 ## 🎯 Session Objectives
 
-✅ Understand RAG and how it differs from pure LLM inference  
+✅ Understand RAG and how it differs from pure LLM inference / fine-tuning 
 ✅ Create a vector database (Chroma) from documents  
 ✅ Perform similarity search with sentence embeddings  
 ✅ Generate grounded responses using Gemini Pro or Hugging Face  
-✅ Use Colab or Streamlit as front-end delivery mechanisms  
+✅ Building a GraphRag and understanding how it differs from RAG
 
 ---
 
@@ -33,29 +33,12 @@ description: "Build an end-to-end pipeline for document retrieval and grounded g
 
 ---
 
-## 🔍 Workflow Summary
-
-1. **Embed your documents** → ChromaDB  
-2. **Query with a prompt** → retrieve relevant chunks  
-3. **Generate grounded answer** → Gemini or Hugging Face  
-4. **Run in Colab or Streamlit** → optional front-end interface  
-
----
-
 ## 💻 Notebooks
 
 | Notebook | Description | Link |
 |----------|-------------|------|
 | `intro_to_rag.ipynb` | Full pipeline: embed → search → generate | [Colab Link](https://colab.research.google.com/github/MariaAise/test/blob/main/intro_to_rag.ipynb) |
-| `embeddings_similarity_score.ipynb` | Sentence similarity demo (optional warm-up) | *(optional)* |
-
----
-
-## 🎛️ Streamlit App
-
-| File | Description | Use |
-|------|-------------|-----|
-| `day3_rag_streamlit.py` | UI to run the RAG workflow from browser | Giveaway |
+| `graphrag.ipynb` | GraphRag for literature review application |[Colab Link](https://colab.research.google.com/github/MariaAise/test/blob/main/graphrag.ipynb)
 
 ---
 
