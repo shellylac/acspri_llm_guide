@@ -14,8 +14,8 @@ description: "Final session walkthrough of agent templates, ACP logic, orchestra
 
 ## 🎯 Session Objectives
 
-✅ Structure agents using ACP or ReAct loop templates  
-✅ Use prompt-based templates to support feedback and debugging  
+✅ Understand main agentic frameworks
+✅ Implement LangChain orchestration patterns (codebook-ready)  
 ✅ Explore orchestration architecture for multi-agent systems  
 ✅ Connect Streamlit demos with reusable code modules  
 ✅ Wrap up full course with takeaways and next steps  

@@ -40,15 +40,6 @@ description: "Build an end-to-end pipeline for document retrieval and grounded g
 | `intro_to_rag.ipynb` | Full pipeline: embed → search → generate | [Colab Link](https://colab.research.google.com/github/MariaAise/test/blob/main/intro_to_rag.ipynb) |
 | `graphrag.ipynb` | GraphRag for literature review application |[Colab Link](https://colab.research.google.com/github/MariaAise/test/blob/main/graphrag.ipynb)
 
----
-
-## 🧩 Codebook Modules
-
-| Module | Path | Purpose |
-|--------|------|---------|
-| `embed_chroma.md` | `codebook/embeddings/` | Load, chunk, embed, and persist documents |
-| `similarity_query_chroma.md` | `codebook/retrieval/` | Retrieve top-k chunks by semantic similarity |
-| `gemini_rag_generation.md` | `codebook/generation/` | Answer questions based on retrieved chunks with Gemini |
 
 ---
 
@@ -61,38 +52,6 @@ description: "Build an end-to-end pipeline for document retrieval and grounded g
 
 
 [OpenAPI Setup Guide](openai_api_setup_colab.md)
-
----
-
-## 🗂 Suggested Reading Flow
-
-| Step | File | Purpose |
-|------|------|---------|
-| 1️⃣ | `day3_rag_intro.md` | What is RAG and why it matters |
-| 2️⃣ | `embed_chroma.md` | Build your vector store |
-| 3️⃣ | `similarity_query_chroma.md` | Perform semantic search |
-| 4️⃣ | `gemini_rag_generation.md` | Generate citations-aware output |
-| 5️⃣ | `intro_to_rag.ipynb` | Run the full pipeline in Colab |
-| 6️⃣ | `day3_rag_streamlit.py` | Optional UI for public-facing or research apps |
-
----
-
-## 🧪 Output Comparison: Gemini vs Hugging Face
-
-| Model | Citation Support | Reasoning | Setup |
-|-------|------------------|-----------|-------|
-| Gemini Pro | ✅ Inline `[source_n]` | ✅ Strong | API key required |
-| HF Transformers (e.g. Flan-T5) | ❌ None | ⚠️ Basic | Local/Colab, no key needed |
-
----
-
-## 🧠 Real-World Applications
-
-- Literature review (with source traceability)  
-- Interview transcript grounding  
-- Research synthesis and cross-source QA  
-- Internal knowledge systems  
-- News and policy monitoring  
 
 ---
 

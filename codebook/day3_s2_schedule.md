@@ -24,15 +24,7 @@ description: "Learn to structure, orchestrate, and operate intelligent agents us
 
 ---
 
-## 🧠 Core Concepts
-
-| Section | Description | Visual |
-|---------|-------------|--------|
-| Prompt → Chain → Agent | Layered logic: from single prompt to full agent | ![fig_prompt_chain_agent_flow](../shared_assets/visuals/fig_prompt_chain_agent_flow.png) |
-| ReAct Framework | Reasoning loop: Thought → Action → Observation → Answer | ![fig_react_loop_diagram](../shared_assets/visuals/fig_react_loop_diagram.png) |
-| Tool Definition | Card format: name, description, input/output schema | ![fig_tool_definition_card](../shared_assets/visuals/fig_tool_definition_card.png) |
-| LangChain Orchestration | LangChain components: LLM ↔ Tool ↔ Memory ↔ Output | ![fig_langchain_orchestration_map](../shared_assets/visuals/fig_langchain_orchestration_map.png) |
-| ACP Loop | Custom loop: Perceive → Reason → Act → Observe → Exit | ![fig_acp_loop_mermaid_style](../shared_assets/visuals/fig_acp_loop_mermaid_style.png) |
+Intro to Agents with LangChain [day3_agents](../docs/day3/day3_agents.md)
 
 ---
 
