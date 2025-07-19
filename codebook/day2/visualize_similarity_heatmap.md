@@ -134,7 +134,3 @@ Heatmaps help reveal:
 | `day2_llm_meaning_instruments.ipynb` | Hands-on notebook using this module            |
 
 ---
-
-## 🪪 Author  
-*Maria Aise — Modular Codebook, ACSPRI 2025*  
-Used across Streamlit dashboards, client reports, and academic visualizations.
